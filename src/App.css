@@ -82,6 +82,8 @@ body {
   overflow: hidden;
   flex-grow: 0;
 
+  animation: key-fade-in 0.2s forwards;
+
   > .content {
     min-width: 200px;
     min-height: 100px;

@@ -53,6 +53,7 @@ export function AppContextProvider(props: React.PropsWithChildren) {
         .map((q) => new StarrableItem(q))
     );
     _setShowAnswers(false);
+    _setCurrentIndex(0);
   }
 
   useEffect(() => {

@@ -48,7 +48,7 @@ export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
   const questions = bankDetails.questions;
 
   return (
-    <div className="modal-container fade-in" onClick={modal.close}>
+    <div className="modal-container" onClick={modal.close}>
       <div
         className="content w-3/7 min-w-120!"
         onClick={(e) => e.stopPropagation()}
