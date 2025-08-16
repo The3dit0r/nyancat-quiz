@@ -1,0 +1,151 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "./theme";
+
+@plugin "daisyui/theme" {
+  name: "sunset";
+  default: false;
+  prefersdark: false;
+  color-scheme: "dark";
+  --color-base-100: oklch(22% 0.019 237.69);
+  --color-base-200: oklch(20% 0.019 237.69);
+  --color-base-300: oklch(18% 0.019 237.69);
+  --color-base-content: oklch(77.383% 0.043 245.096);
+  --color-primary: oklch(0.4403 0.1603 303.37);
+  --color-primary-content: oklch(0.9491 0 0);
+  --color-secondary: oklch(0.8099 0.1228 225.68);
+  --color-secondary-content: oklch(14.507% 0.035 2.72);
+  --color-accent: oklch(71.294% 0.166 299.844);
+  --color-accent-content: oklch(14.258% 0.033 299.844);
+  --color-neutral: oklch(26% 0.019 237.69);
+  --color-neutral-content: oklch(70% 0.019 237.69);
+  --color-info: oklch(85.559% 0.085 206.015);
+  --color-info-content: oklch(17.111% 0.017 206.015);
+  --color-success: oklch(0.7507 0.1765 151.02);
+  --color-success-content: oklch(17.112% 0.017 144.778);
+  --color-warning: oklch(85.569% 0.084 74.427);
+  --color-warning-content: oklch(17.113% 0.016 74.427);
+  --color-error: oklch(0.6745 0.1655 2.84);
+  --color-error-content: oklch(17.102% 0.015 16.886);
+  --radius-selector: 1rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+html {
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #131313;
+  width: 100%;
+  height: 100%;
+
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-sans: "DM Sans", sans-serif;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+
+  font-family: var(--font-sans);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  display: flex;
+  min-height: 0;
+}
+
+.flex.coll {
+  display: flex;
+  flex-direction: column;
+}
+
+.aictr {
+  align-items: center;
+}
+
+.aiart {
+  align-items: flex-start;
+}
+
+.aiend {
+  align-items: flex-end;
+}
+
+.jcart {
+  justify-content: flex-start;
+}
+
+.jcctr {
+  justify-content: center;
+}
+
+.spbtw {
+  justify-content: space-between;
+}
+
+.jcend {
+  justify-content: flex-end;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.fade-in {
+  animation: key-fade-in 0.2s forwards;
+}
+
+.fade-out {
+  animation: key-fade-out 0.2s forwards;
+}
+
+.targt {
+  text-align: right;
+}
+
+.tactr {
+  text-align: center;
+}
+
+.usn {
+  user-select: none;
+}
+
+.fade-in {
+  animation: key-fade-in 0.3s forwards;
+}
+
+@keyframes key-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes key-fade-out {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
