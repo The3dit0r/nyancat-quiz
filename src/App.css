@@ -56,6 +56,7 @@ body {
 
   background-position: center;
   background-size: cover;
+  min-width: 435px;
 
   flex: 1;
 }

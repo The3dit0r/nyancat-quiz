@@ -2,6 +2,8 @@
 @plugin "daisyui";
 @plugin "./theme";
 
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 @plugin "daisyui/theme" {
   name: "sunset";
   default: false;
@@ -61,7 +63,7 @@ body {
 }
 
 #root::after {
-  content: "Application version: 0.4.4 | Made with 💖 by @The3dit0r";
+  content: "Application version: 0.4.5 | Made with 💖 by @The3dit0r";
   font-size: 10px;
   position: absolute;
 
