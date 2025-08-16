@@ -11,6 +11,7 @@ export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
 
   const [length, setLength] = useState(50);
   const [shuffled, setShuffled] = useState(true);
+  const [offset, setOffset] = useState(0);
 
   if (!app) return <>App context not found</>;
   if (!modal.shown) return <></>;
@@ -23,16 +24,24 @@ export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
     setLength(e.target.value);
   }
 
+  function offsetInput(e: any) {
+    setOffset(e.target.value);
+  }
+
   function validateLength() {
     setLength(Math.max(5, Math.min(questions.length, length)));
   }
 
+  function validateOffset() {
+    setOffset(Math.max(0, Math.min(questions.length - 6, offset)));
+  }
+
   function generate() {
-    app?.generateQuestionBank(length, shuffled);
+    app?.generateQuestionBank(length, offset, shuffled);
     toaster.success("New quiz generated!");
     modal.close();
 
-    if (onClose) onClose();
+    if (onClose) onClose(true);
   }
 
   const { bankDetails } = app;
@@ -54,6 +63,54 @@ export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
 
         <div className="my-8 flex aictr spbtw">
           <div>
+            <div className="font-semibold">Randomize questions</div>
+            <sub>Whether or not question be shuffled</sub>
+          </div>
+          <label className="label">
+            <span className="mr-4">{shuffled ? "Yes" : "No"}</span>
+            <input
+              type="checkbox"
+              className="toggle"
+              onInput={shuffleInput}
+              defaultChecked={shuffled}
+            />
+          </label>
+        </div>
+
+        <div
+          className="my-8 flex aictr spbtw"
+          style={
+            shuffled
+              ? {
+                  pointerEvents: "none",
+                  opacity: 0.3,
+                  cursor: "not-allowed",
+                }
+              : {}
+          }
+        >
+          <div>
+            <div className="font-semibold">
+              Question offset (0 - {questions.length - 6})
+            </div>
+            <sub>
+              The starting question from the bank (Not available when shuffled)
+            </sub>
+          </div>
+          <input
+            type="number"
+            className="input w-24"
+            placeholder="1"
+            min={0}
+            max={questions.length - 5}
+            onInput={offsetInput}
+            onBlur={validateOffset}
+            value={offset}
+          />
+        </div>
+
+        <div className="my-8 flex aictr spbtw">
+          <div>
             <div className="font-semibold">
               Number of question (5 - {questions.length})
             </div>
@@ -69,22 +126,6 @@ export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
             onBlur={validateLength}
             value={length}
           />
-        </div>
-
-        <div className="my-8 flex aictr spbtw">
-          <div>
-            <div className="font-semibold">Randomize questions</div>
-            <sub>Whether or not question be shuffled</sub>
-          </div>
-          <label className="label">
-            <span className="mr-4">{shuffled ? "Yes" : "No"}</span>
-            <input
-              type="checkbox"
-              defaultChecked
-              className="toggle"
-              onInput={shuffleInput}
-            />
-          </label>
         </div>
 
         <div className="flex jcend gap-4">

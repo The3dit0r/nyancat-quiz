@@ -45,12 +45,12 @@ export default function RightDisplay() {
     .map((q) => q.data.getScore(true))
     .reduce((p, c) => p + c);
 
-  const perf = Math.round((score * 100) / questions.length) / 100;
+  const perf = Math.round((score * 10000) / questions.length) / 100;
 
   return (
     <div
       id="right-display"
-      className="display-panel flex coll usn"
+      className="display-panel flex coll usn overflow-hidden"
       style={{ "--bg": catShown ? "#0000" : "#000" } as any}
     >
       <div
@@ -108,7 +108,7 @@ export default function RightDisplay() {
       </div>
 
       {!showAnswers || (
-        <div className="p-4 flex spbtw">
+        <div className="p-4 flex spbtw bg-black">
           <div>Final score:</div>
           <div className="font-bold">
             {score} / {questions.length} ({perf}%)

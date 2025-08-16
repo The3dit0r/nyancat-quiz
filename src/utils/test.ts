@@ -145,8 +145,10 @@ export class QuestionBank {
     this.groups = new QuestionBankGroups({ items: bank.groups });
   }
 
-  getRandomQuestions(length = 50) {
-    const res = shuffle.pick([...this.questions], { picks: length });
+  getRandomQuestions(length = 50, offset = 0) {
+    const res = shuffle.pick([...this.questions].slice(offset), {
+      picks: length,
+    });
 
     if (Array.isArray(res)) {
       return res;
@@ -155,13 +157,13 @@ export class QuestionBank {
     return [res];
   }
 
-  getQuestions(length = 50, random = false) {
+  getQuestions(length = 50, offset = 0, random = false) {
     let questions: T_Question[] = [];
 
     if (random) {
-      questions = this.getRandomQuestions(length);
+      questions = this.getRandomQuestions(length /* offset */);
     } else {
-      questions = this.questions.slice(0, length);
+      questions = this.questions.slice(offset, length + offset);
     }
 
     return questions.map((q) => InteractableQuestion.fromQuestion(q));

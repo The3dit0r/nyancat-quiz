@@ -167,16 +167,18 @@ function Option({
 function getColor(selected: boolean, correct: boolean | null): string {
   if (selected) {
     if (typeof correct !== "boolean") {
-      return "bg-primary";
+      return "bg-primary/60";
     }
 
     if (!correct) {
-      return "bg-error";
+      return "bg-error text-error-content";
     }
   }
 
   if (correct) {
-    return selected ? "bg-success" : "bg-success/20 outline-success outline-1";
+    return selected
+      ? "bg-success text-success-content"
+      : "bg-success/20 outline-success outline-1";
   }
 
   return "";

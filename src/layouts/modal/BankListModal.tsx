@@ -4,6 +4,7 @@ import { useApp } from "../../services/providers/data";
 import { filterQuestionFunc } from "../../utils/question";
 import { useModalState, type PropsWithModal } from "../../hooks/useModalState";
 import { GenerateQuizPrompt } from "./GenerateQuizPrompt";
+import { XIcon } from "@phosphor-icons/react";
 
 export default function BankListModal({ modal }: PropsWithModal) {
   const app = useApp();
@@ -29,16 +30,22 @@ export default function BankListModal({ modal }: PropsWithModal) {
   return (
     <div className="modal-container" onClick={modal.close}>
       <div
-        className="content w-2/3 h-9/10 flex coll"
+        className="content w-4/5 h-9/10 flex coll"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="flex aictr gap-2">
+        <div className="flex aictr gap-4">
+          <button
+            className="btn btn-warning btn-square btn-sm btn-soft"
+            onClick={modal.close}
+          >
+            <XIcon />
+          </button>
           <div className="">
             <sub>
               Question Bank | Showing {filtered.length} out of{" "}
               {bankDetails.questions.length} questions
             </sub>
-            <div className="modal-title mt-2">{bankDetails.name}</div>
+            <div className="modal-title">{bankDetails.name}</div>
           </div>
           <div className="flex-1"></div>
           <div className="input outline-none!">
@@ -46,6 +53,7 @@ export default function BankListModal({ modal }: PropsWithModal) {
               placeholder="Search"
               onInput={handleInput}
               onChange={handleInput}
+              value={query}
             />
           </div>
 
@@ -109,7 +117,10 @@ export default function BankListModal({ modal }: PropsWithModal) {
         </div>
       </div>
 
-      <GenerateQuizPrompt modal={genModal} onClose={modal.close} />
+      <GenerateQuizPrompt
+        modal={genModal}
+        onClose={(success) => !success || modal.close()}
+      />
     </div>
   );
 }

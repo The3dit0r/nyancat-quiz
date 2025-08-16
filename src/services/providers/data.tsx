@@ -19,7 +19,11 @@ type T_AppContext = {
 
   showAnswers: boolean;
   toggleShowAnswers(b?: boolean): boolean;
-  generateQuestionBank(length?: number, shuffle?: boolean): void;
+  generateQuestionBank(
+    length?: number,
+    offset?: number,
+    shuffle?: boolean
+  ): void;
 
   clearAllAnswers(): void;
 };
@@ -34,10 +38,21 @@ export function AppContextProvider(props: React.PropsWithChildren) {
   >([]);
   const [_showAnswers, _setShowAnswers] = useState(false);
 
-  function generateQuestionBank(length = 5e2, shuffle = false) {
-    _setQuestions(
-      bankDetails.getQuestions(length, shuffle).map((q) => new StarrableItem(q))
+  function generateQuestionBank(length = 50, offset = 0, shuffle = false) {
+    console.log(
+      "Generating",
+      length,
+      "questions starting from",
+      offset + 1,
+      shuffle ? "(Shuffled)" : ""
     );
+
+    _setQuestions(
+      bankDetails
+        .getQuestions(length, offset, shuffle)
+        .map((q) => new StarrableItem(q))
+    );
+    _setShowAnswers(false);
   }
 
   useEffect(() => {

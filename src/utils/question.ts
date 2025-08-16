@@ -6,7 +6,10 @@ export function filterQuestionFunc(query: string = "") {
     const opt = options.join(" | ").toLowerCase();
     const ans = answers
       .map((a) => options.find((o) => o.id === a)?.text)
-      .join(", ");
+      .join(", ")
+      .toLowerCase();
+
+    console.log(ans);
     const grp = group.toLowerCase();
     const tpt = type.toLowerCase();
     const qq = query.toLowerCase();

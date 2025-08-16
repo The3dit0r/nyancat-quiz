@@ -7,7 +7,8 @@ export function useModalState() {
     setShown(true);
   }
 
-  function close() {
+  function close(e?: React.MouseEvent) {
+    e?.stopPropagation();
     setShown(false);
   }
 

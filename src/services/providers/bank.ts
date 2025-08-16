@@ -696,34 +696,34 @@ export const bank = {
     },
     {
       content:
-        "Write the stages of action in the correct order in the text box below. There is no need to number them, and feel free to separate each stage with a comma:",
+        "Write the stages of action in the correct order in the text box below. There is no need to number them, and feel free to separate each stage with a comma:a. Interpreting the State of the World\nb. Selecting the Action\nc. Evaluating the Outcome\nd. Executing the Action\ne. Forming the Intention\nf. Perceiving the State of the World",
       options: [
         {
-          text: "Interpreting the State of the World",
+          text: "d, b, f, a, e, c",
           id: "A",
         },
         {
-          text: "Selecting the Action",
+          text: "a, c, e, f, b, d",
           id: "B",
         },
         {
-          text: "Evaluating the Outcome",
+          text: "e, b, d, f, a, c",
           id: "C",
         },
         {
-          text: "Executing the Action",
+          text: "f, d, c, b, a, e",
           id: "D",
         },
         {
-          text: "Forming the Intention",
+          text: "e, a, b, d, f, c",
           id: "E",
         },
         {
-          text: "Perceiving the State of the World",
+          text: "c, f, d, e, a, b",
           id: "F",
         },
       ],
-      answers: ["E"],
+      answers: ["C"],
       type: "MC",
       group: "MOOC1",
     },
@@ -829,7 +829,7 @@ export const bank = {
     },
     {
       content:
-        "A change in an environment or system that indicates that a user's action was recognized and communicates the result of that action is called: Reducing the set of available actions to only those that are possible given a particular state of the system would be an example of applying:",
+        "A change in an environment or system that indicates that a user's action was recognized and communicates the result of that action is called:",
       options: [
         {
           text: "Response time",
@@ -847,6 +847,15 @@ export const bank = {
           text: "A dialogue box",
           id: "D",
         },
+      ],
+      answers: ["C"],
+      type: "MC",
+      group: "MOOC1",
+    },
+    {
+      content:
+        "Reducing the set of available actions to only those that are possible given a particular state of the system would be an example of applying:",
+      options: [
         {
           text: "Feedback",
           id: "A",
