@@ -696,7 +696,7 @@ export const bank = {
     },
     {
       content:
-        "Write the stages of action in the correct order in the text box below. There is no need to number them, and feel free to separate each stage with a comma:a. Interpreting the State of the World\nb. Selecting the Action\nc. Evaluating the Outcome\nd. Executing the Action\ne. Forming the Intention\nf. Perceiving the State of the World",
+        "Arrange the stages of action in the correct order:\na. Interpreting the State of the World\nb. Selecting the Action\nc. Evaluating the Outcome\nd. Executing the Action\ne. Forming the Intention\nf. Perceiving the State of the World",
       options: [
         {
           text: "d, b, f, a, e, c",
@@ -4583,7 +4583,7 @@ export const bank = {
     },
     {
       content:
-        "Wireframes can test design concepts, as well as help designers decide among multiple ways of designing a piece of functionality. A It's possible to create a useful, functional interactive prototype with very simple tools, such as paper, post-it notes, and scotch tape.",
+        "Wireframes can test design concepts, as well as help designers decide among multiple ways of designing a piece of functionality.",
       options: [
         {
           text: "True",
@@ -4593,6 +4593,15 @@ export const bank = {
           text: "False",
           id: "B",
         },
+      ],
+      answers: ["A"],
+      type: "TF",
+      group: "MOOC4",
+    },
+    {
+      content:
+        "It's possible to create a useful, functional interactive prototype with very simple tools, such as paper, post-it notes, and scotch tape.",
+      options: [
         {
           text: "True",
           id: "A",

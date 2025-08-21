@@ -6,7 +6,8 @@ import {
   StarrableItem,
 } from "../../utils/test";
 
-import { bank } from "./bank";
+import { bank as raw_bank } from "./bank";
+const bank = { ...raw_bank, questions: raw_bank.questions };
 
 type T_AppContext = {
   bankDetails: QuestionBank;

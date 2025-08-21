@@ -50,7 +50,7 @@ export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
   return (
     <div className="modal-container" onClick={modal.close}>
       <div
-        className="content w-3/7 min-w-120!"
+        className="content w-3/7 min-w-120! p-32"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex aictr spbtw">

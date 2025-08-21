@@ -65,7 +65,7 @@ export function ResizingDivider() {
       className="w-4 h-1/2 m-auto hover:*:bg-base-content hover:*:h-full cursor-grab flex aictr jcctr"
       onMouseDown={handleMouseDown}
     >
-      <div className="w-1 h-16 bg-base-200 rounded-xl transition-all"></div>
+      <div className="w-1 h-16 bg-primary/40 rounded-xl transition-all"></div>
     </div>
   );
 }

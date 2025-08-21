@@ -49,7 +49,7 @@ export function QuestionDisplay() {
         <div>|</div>
         <div className="text-sm">Select {curQ.getAnswers().length} options</div>
         <div className="flex-1 targt"> </div>
-        <div className="text-sm font-mono">
+        <div className="text-sm font-mono usn">
           Score: {showAnswers ? curQ.getScore() : "-"} / 1
         </div>
       </div>
@@ -142,11 +142,11 @@ function Option({
   correct: boolean | null;
 } & React.JSX.IntrinsicElements["div"]) {
   const base =
-    "p-4 flex-1 outline-[#0000] cart py-4 font-normal rounded-field hover:outline-base-content/40 outline-1 ";
+    "p-4 flex-1 outline-[#0000] cart py-4 font-normal rounded-field hover:outline-base-content/40 outline-1 cursor-pointer! ";
 
   return (
-    <div className="flex gap-4 aictr px-0 my-6 usn" {...rest}>
-      <div className="w-8 h-8 flex aictr jcctr rounded-md border-1 text-xl cursor-pointer">
+    <div className="flex gap-4 aictr px-0 my-6" {...rest}>
+      <div className="w-8 h-8 flex aictr jcctr rounded-md border-1 text-xl cursor-pointer usn">
         {selected ? (
           <span className="fade-in">✓</span>
         ) : (
