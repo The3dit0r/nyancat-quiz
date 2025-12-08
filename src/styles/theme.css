@@ -69,8 +69,3 @@
   --depth: 0;
   --noise: 0;
 }
-
-.text-sm,
-.text-xs {
-  @apply font-bold;
-}
