@@ -1,4 +1,4 @@
-export const bank = {
+const BANK = {
   name: "WDU203c - User Experience Research and Design",
   questions: [
     {
@@ -6572,3 +6572,5 @@ export const bank = {
     MOOC5: "UX Research at Scale - Surveys, Analytics, Online Testing",
   },
 };
+
+export default BANK;

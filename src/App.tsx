@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import "./App.css";
 
 import RightDisplay from "./layouts/right";
 import LeftDisplay from "./layouts/left";

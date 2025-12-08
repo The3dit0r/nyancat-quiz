@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { PenNibIcon } from "@phosphor-icons/react/dist/ssr";
 
-import type { PropsWithModal } from "../../hooks/useModalState";
+import { useModalState, type PropsWithModal } from "../../hooks/useModalState";
 import { useApp } from "../../services/providers/data";
 import { useToaster } from "../../components/toaster/context";
+import BankSelectionModal from "./BankSelectionModal";
 
 export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
   const app = useApp();
@@ -12,6 +13,8 @@ export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
   const [length, setLength] = useState(50);
   const [shuffled, setShuffled] = useState(true);
   const [offset, setOffset] = useState(0);
+
+  const bankModal = useModalState();
 
   if (!app) return <>App context not found</>;
   if (!modal.shown) return <></>;
@@ -56,7 +59,13 @@ export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
         <div className="flex aictr spbtw">
           <div className="">
             <div className="text-lg font-semibold">Generate quiz</div>
-            <sub>Bank: {bankDetails.name}</sub>
+            <div className="text-sm ">
+              <span className="opacity-70">Bank: {bankDetails.name}</span>
+              <span> • </span>
+              <span className="link link-hover" onClick={bankModal.open}>
+                Change
+              </span>
+            </div>
           </div>
           <PenNibIcon size="2rem" />
         </div>
@@ -138,6 +147,8 @@ export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
           </button>
         </div>
       </div>
+
+      <BankSelectionModal modal={bankModal} />
     </div>
   );
 }

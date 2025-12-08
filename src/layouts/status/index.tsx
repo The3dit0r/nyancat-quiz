@@ -1,11 +1,18 @@
-import { CaretDownIcon, DatabaseIcon } from "@phosphor-icons/react";
+import {
+  CaretDownIcon,
+  DatabaseIcon,
+  ListIcon,
+  PlusIcon,
+} from "@phosphor-icons/react";
 import { useApp } from "../../services/providers/data";
 import { GenerateQuizPrompt } from "../modal/GenerateQuizPrompt";
 import { useModalState } from "../../hooks/useModalState";
-import BankListModal from "../modal/BankListModal";
+import BankDetailsModal from "../modal/BankDetailsModal";
 
 import NyanCat from "../../assets/icon.png";
 import { useToaster } from "../../components/toaster/context";
+import BankSelectionModal from "../modal/BankSelectionModal";
+import ToggleThemeButton from "../../components/ToggleTheme";
 
 export default function StatusBar() {
   const app = useApp();
@@ -13,6 +20,7 @@ export default function StatusBar() {
 
   const genModal = useModalState();
   const listModal = useModalState();
+  const bankModal = useModalState();
 
   if (!app) {
     return (
@@ -23,7 +31,7 @@ export default function StatusBar() {
   }
 
   function showBankList() {
-    toaster.warn("Sorry, but this function is not available!");
+    bankModal.open();
   }
 
   return (
@@ -49,15 +57,20 @@ export default function StatusBar() {
 
       <div className="flex flex-1 aictr jcend gap-2">
         <button className="btn btn-primary" onClick={genModal.open}>
+          <PlusIcon />
           Generate quiz
         </button>
         <button className="btn btn-secondary" onClick={listModal.open}>
+          <ListIcon />
           Show Question Bank
         </button>
+
+        <ToggleThemeButton />
       </div>
 
       <GenerateQuizPrompt modal={genModal} />
-      <BankListModal modal={listModal} />
+      <BankSelectionModal modal={bankModal} />
+      <BankDetailsModal modal={listModal} />
     </div>
   );
 }

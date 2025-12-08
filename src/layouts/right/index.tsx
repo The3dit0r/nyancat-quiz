@@ -91,24 +91,24 @@ export default function RightDisplay() {
           })}
         </div>
       </div>
-      <div className="p-4 bg-base-100 flex aiend gap-4 rounded-t-box pt-8">
+      <div className="p-4 bg-base-100 flex aiend gap-4 pt-8">
         <FontSizeAdjust />
         <div className="flex-1"></div>
         <div className="w-36 flex coll gap-2">
           <button
-            className="btn btn-soft btn-success"
+            className="btn btn-soft btn-primary"
             onClick={toggleShowAnswers}
           >
             {showAnswers ? "Retry" : "Submit attempt"}
           </button>
-          <button className="btn btn-accent" onClick={toggleCat}>
+          <button className="btn btn-soft" onClick={toggleCat}>
             {catShown ? "Show question" : "Show cat"}
           </button>
         </div>
       </div>
 
       {!showAnswers || (
-        <div className="p-4 flex spbtw bg-black">
+        <div className={`p-4 flex spbtw ${getPerfColor(perf)}`}>
           <div>Final score:</div>
           <div className="font-bold">
             {score} / {questions.length} ({perf}%)
@@ -117,6 +117,18 @@ export default function RightDisplay() {
       )}
     </div>
   );
+}
+
+function getPerfColor(p: number) {
+  if (p < 50) {
+    return "bg-error text-error-content";
+  }
+
+  if (p < 80) {
+    return "bg-warning text-warning-content";
+  }
+
+  return "bg-success text-success-content";
 }
 
 function FontSizeAdjust() {

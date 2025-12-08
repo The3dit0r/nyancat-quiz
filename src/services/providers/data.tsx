@@ -6,8 +6,9 @@ import {
   StarrableItem,
 } from "../../utils/test";
 
-import { bank as raw_bank } from "./bank";
-const bank = { ...raw_bank, questions: raw_bank.questions };
+import { getAvailableBanks } from "./bank";
+
+const AVAILABLE_BANKS = getAvailableBanks();
 
 type T_AppContext = {
   bankDetails: QuestionBank;
@@ -27,19 +28,28 @@ type T_AppContext = {
   ): void;
 
   clearAllAnswers(): void;
+  setBankDetails(bank: T_BankDetails): void;
 };
 
 const AppContext = createContext<T_AppContext | null>(null);
 
 export function AppContextProvider(props: React.PropsWithChildren) {
-  const [bankDetails, _setBankDetails] = useState(new QuestionBank(bank));
+  const [bankDetails, _setBankDetails] = useState(
+    new QuestionBank(AVAILABLE_BANKS[0])
+  );
+
   const [currentIndex, _setCurrentIndex] = useState(0);
   const [questions, _setQuestions] = useState<
     StarrableItem<InteractableQuestion>[]
   >([]);
   const [_showAnswers, _setShowAnswers] = useState(false);
 
-  function generateQuestionBank(length = 50, offset = 0, shuffle = false) {
+  function generateQuestionBank(
+    length = 50,
+    offset = 0,
+    shuffle = false,
+    bank = bankDetails
+  ) {
     console.log(
       "Generating",
       length,
@@ -49,7 +59,7 @@ export function AppContextProvider(props: React.PropsWithChildren) {
     );
 
     _setQuestions(
-      bankDetails
+      bank
         .getQuestions(length, offset, shuffle)
         .map((q) => new StarrableItem(q))
     );
@@ -76,6 +86,12 @@ export function AppContextProvider(props: React.PropsWithChildren) {
     return b;
   }
 
+  function setBankDetails(details: T_BankDetails) {
+    const newBank = new QuestionBank(details);
+    _setBankDetails(newBank);
+    generateQuestionBank(50, 0, false, newBank);
+  }
+
   const value = {
     bankDetails,
     currentIndex,
@@ -92,6 +108,7 @@ export function AppContextProvider(props: React.PropsWithChildren) {
       questions.forEach((q) => q.data.deselect());
     },
     generateQuestionBank,
+    setBankDetails,
   };
 
   return (

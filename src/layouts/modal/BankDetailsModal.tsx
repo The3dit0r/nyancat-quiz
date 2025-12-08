@@ -6,7 +6,7 @@ import { useModalState, type PropsWithModal } from "../../hooks/useModalState";
 import { GenerateQuizPrompt } from "./GenerateQuizPrompt";
 import { XIcon } from "@phosphor-icons/react";
 
-export default function BankListModal({ modal }: PropsWithModal) {
+export default function BankDetailsModal({ modal }: PropsWithModal) {
   const app = useApp();
 
   const genModal = useModalState();
@@ -81,7 +81,7 @@ export default function BankListModal({ modal }: PropsWithModal) {
                     style={{
                       backgroundColor:
                         q.type === "TF"
-                          ? "var(--color-secondary)"
+                          ? "var(--color-base-300)"
                           : "var(--color-base-200)",
                     }}
                   >
