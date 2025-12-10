@@ -35,18 +35,18 @@ export default function StatusBar() {
   }
 
   return (
-    <div className="flex-0 flex aictr gap-4 display-panel p-4">
+    <div className="flex-0 flex aictr gap-4 display-panel p-2">
       <img src={NyanCat} width={60} />
       <div
         onClick={showBankList}
-        className="bg-primary/20 hover:bg-primary/70 active:brightness-75 p-2 pr-4 rounded-box flex aictr gap-4 transition-all cursor-pointer usn"
+        className="btn h-auto p-2 rounded-field gap-4 usn rounded-box!"
       >
         <DatabaseIcon size="3em" />
-        <div>
-          <div className="text-md font-semibold">
+        <div className="text-left">
+          <div className="font-semibold">
             Question Bank: {app.bankDetails.name}
           </div>
-          <div className="text-xs">
+          <div className="text-sm">
             Bank size: {app.bankDetails.questions.length} questions
           </div>
         </div>

@@ -320,7 +320,7 @@ const BANK = {
     },
     {
       content:
-        "Each element of the population should be allocated to one and only one ______stratum and no population elements should be omitted. ",
+        "Each element of the population should be allocated to one and only one ______ and no population elements should be omitted. ",
       options: [
         {
           id: "A",

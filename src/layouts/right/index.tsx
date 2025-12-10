@@ -78,7 +78,7 @@ export default function RightDisplay() {
                 clss.push("btn-success");
               }
             } else if (__.data.hasInput()) {
-              clss.push("btn-accent");
+              clss.push("btn-primary");
             }
 
             if (_ === currentIndex) {

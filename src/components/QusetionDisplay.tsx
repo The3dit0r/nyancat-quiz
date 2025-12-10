@@ -167,7 +167,7 @@ function Option({
 function getColor(selected: boolean, correct: boolean | null): string {
   if (selected) {
     if (typeof correct !== "boolean") {
-      return "bg-primary/60";
+      return "bg-primary/5 outline-2 outline-primary!";
     }
 
     if (!correct) {
@@ -181,7 +181,7 @@ function getColor(selected: boolean, correct: boolean | null): string {
       : "bg-success/20 outline-success outline-1";
   }
 
-  return "";
+  return "outline-2";
 }
 
 function getNext(a = 1, m = 50) {

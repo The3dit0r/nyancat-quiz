@@ -77,7 +77,7 @@ export default function BankDetailsModal({ modal }: PropsWithModal) {
               {filtered.map((q) => {
                 return (
                   <div
-                    className="card border-2 border-transparent rounded-field p-2 hover:border-primary transition-all"
+                    className="card border-2 border-transparent rounded-box p-2 hover:border-primary transition-all"
                     style={{
                       backgroundColor:
                         q.type === "TF"
@@ -85,7 +85,7 @@ export default function BankDetailsModal({ modal }: PropsWithModal) {
                           : "var(--color-base-200)",
                     }}
                   >
-                    <div className="text-sm line-clamp-4 text-white/80">
+                    <div className="text-sm line-clamp-4 text-base-content">
                       Q: {q.content}
                     </div>
                     <div className="flex-1"></div>
