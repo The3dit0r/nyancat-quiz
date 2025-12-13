@@ -3,7 +3,7 @@ const BANK = {
   questions: [
     {
       content:
-        "Due to the ______ nature of qualitative research, there is no agreed process in designing a qualitative research project. To this end, researchers can use certain design principles in designing their qualitative projects. ",
+        "Due to the ______ nature of qualitative research, there is no agreed process in designing a qualitative research project. To this end, researchers can use certain design principles in designing their qualitative projects.",
       options: [
         {
           id: "A",
@@ -28,7 +28,7 @@ const BANK = {
     },
     {
       content:
-        "All researchers commence their research with an issue or ______, investigate the relevant empirical evidence and literature to identify relevant research evidence which will help in designing the qualitative questions, collect data and analyse them. ",
+        "All researchers commence their research with an issue or ______, investigate the relevant empirical evidence and literature to identify relevant research evidence which will help in designing the qualitative questions, collect data and analyse them.",
       options: [
         {
           id: "A",
@@ -53,7 +53,7 @@ const BANK = {
     },
     {
       content:
-        "Several aspects of a qualitative research project vary from researcher to researcher. For instance, the empirical evidence and the literature may be reviewed to inform the questions initially raised or it may be reviewed at a late stage during the research process or it may be used to highlight the importance of the research problem. Another consideration regarding qualitative research is the structure and writing of the qualitative project. This varies across different approaches such as ______ and performances including theatre and poems. ",
+        "Several aspects of a qualitative research project vary from researcher to researcher. For instance, the empirical evidence and the literature may be reviewed to inform the questions initially raised or it may be reviewed at a late stage during the research process or it may be used to highlight the importance of the research problem. Another consideration regarding qualitative research is the structure and writing of the qualitative project. This varies across different approaches such as ______ and performances including theatre and poems.",
       options: [
         {
           id: "A",
@@ -78,7 +78,7 @@ const BANK = {
     },
     {
       content:
-        "The in-depth ______ does not have the restrictions of a group process and in this vein, new streams of ______ and questioning can be developed at any time. ",
+        "The in-depth ______ does not have the restrictions of a group process and in this vein, new streams of ______ and questioning can be developed at any time.",
       options: [
         {
           id: "A",
@@ -103,7 +103,7 @@ const BANK = {
     },
     {
       content:
-        "______ interviews offer more flexibility and new ways of gathering insights. The close and personal interaction permits the interviewer to be more sensitive and open to nonverbal feedback and body language. With personal interviews, a personal point of view can be gathered without the influence of others. The interview can be conducted in any place and no certain or demanding preparations are needed. ",
+        "______ interviews offer more flexibility and new ways of gathering insights. The close and personal interaction permits the interviewer to be more sensitive and open to nonverbal feedback and body language. With personal interviews, a personal point of view can be gathered without the influence of others. The interview can be conducted in any place and no certain or demanding preparations are needed.",
       options: [
         {
           id: "A",
@@ -128,7 +128,7 @@ const BANK = {
     },
     {
       content:
-        "Fill in the blank word. The success of an in-depth interview depends on the ______ of the interviewer. ",
+        "Fill in the blank word. The success of an in-depth interview depends on the ______ of the interviewer.",
       options: [
         {
           id: "A",
@@ -153,7 +153,7 @@ const BANK = {
     },
     {
       content:
-        "The unstructured nature of the interview necessitates the researcher to have the competence in gathering and ______the information collected. ",
+        "The unstructured nature of the interview necessitates the researcher to have the competence in gathering and ______the information collected.",
       options: [
         {
           id: "A",
@@ -178,7 +178,7 @@ const BANK = {
     },
     {
       content:
-        "Survey approaches are based upon the design and development of well ______ questionnaires. Key informants may be asked several questions with respect to their intentions, motivations, attitudes, demographic and lifestyle characteristics among others. The questions may be asked verbally in writing or through a remote device (e.g., laptop) and the responses may be collected through these ways. ",
+        "Survey approaches are based upon the design and development of well ______ questionnaires. Key informants may be asked several questions with respect to their intentions, motivations, attitudes, demographic and lifestyle characteristics among others. The questions may be asked verbally in writing or through a remote device (e.g., laptop) and the responses may be collected through these ways.",
       options: [
         {
           id: "A",
@@ -203,7 +203,7 @@ const BANK = {
     },
     {
       content:
-        "Structured refers to the level of ______ that is used during the data collection procedure. ",
+        "Structured refers to the level of ______ that is used during the data collection procedure.",
       options: [
         {
           id: "A",
@@ -228,7 +228,7 @@ const BANK = {
     },
     {
       content:
-        "In structured data collection a formal research instrument is developed and the different questions are offered in a ______order. ",
+        "In structured data collection a formal research instrument is developed and the different questions are offered in a ______order.",
       options: [
         {
           id: "A",
@@ -245,7 +245,7 @@ const BANK = {
     },
     {
       content:
-        "The research can be classified as ______ or ______ based upon whether the objective of the research is known to the respondents. ",
+        "The research can be classified as ______ or ______ based upon whether the objective of the research is known to the respondents.",
       options: [
         {
           id: "A",
@@ -270,7 +270,7 @@ const BANK = {
     },
     {
       content:
-        "In a survey questionnaire, the vast majority of questions are ______ responses that require the respondent to select the answer from a prearranged set of responses. For instance, a question designed to operationalise consumer perceptions regarding a product may be read as follows: The nutrition value of product X is high and the answers are anchored in a 5 point Likert type scale ranging from strongly disagree (1) to strongly agree (5). ",
+        "In a survey questionnaire, the vast majority of questions are ______ responses that require the respondent to select the answer from a prearranged set of responses. For instance, a question designed to operationalise consumer perceptions regarding a product may be read as follows: The nutrition value of product X is high and the answers are anchored in a 5 point Likert type scale ranging from strongly disagree (1) to strongly agree (5).",
       options: [
         {
           id: "A",
@@ -295,7 +295,7 @@ const BANK = {
     },
     {
       content:
-        "______ sampling is a probability sample which is distinguished by the following processes: the original population is divided into two or more mutually exclusive and exhaustive subsets (e.g., males and females) and simple random samples of elements from two or more subsets are selected independently of each other. ",
+        "______ sampling is a probability sample which is distinguished by the following processes: the original population is divided into two or more mutually exclusive and exhaustive subsets (e.g., males and females) and simple random samples of elements from two or more subsets are selected independently of each other.",
       options: [
         {
           id: "A",
@@ -320,7 +320,7 @@ const BANK = {
     },
     {
       content:
-        "Each element of the population should be allocated to one and only one ______ and no population elements should be omitted. ",
+        "Each element of the population should be allocated to one and only one ______ and no population elements should be omitted.",
       options: [
         {
           id: "A",
@@ -345,7 +345,7 @@ const BANK = {
     },
     {
       content:
-        "______ sampling is a probability sample which is distinguished by the following processes: the original population is divided into two or more mutually exclusive and exhaustive subsets (e.g., males and females) and simple random samples of elements from two or more subsets are selected independently of each other. ",
+        "______ sampling is a probability sample which is distinguished by the following processes: the original population is divided into two or more mutually exclusive and exhaustive subsets (e.g., males and females) and simple random samples of elements from two or more subsets are selected independently of each other.",
       options: [
         {
           id: "A",
@@ -370,7 +370,7 @@ const BANK = {
     },
     {
       content:
-        "Stratified sampling is a two-step approach where the population is divided into subpopulations or ______. ",
+        "Stratified sampling is a two-step approach where the population is divided into subpopulations or ______.",
       options: [
         {
           id: "A",
@@ -395,7 +395,7 @@ const BANK = {
     },
     {
       content:
-        "In ______ sampling the target population is initially divided to mutually exclusive and collectively exhaustive subpopulations. ",
+        "In ______ sampling the target population is initially divided to mutually exclusive and collectively exhaustive subpopulations.",
       options: [
         {
           id: "A",
@@ -420,7 +420,7 @@ const BANK = {
     },
     {
       content:
-        "Response rates can be increased through the adoption of ______to research participants. ",
+        "Response rates can be increased through the adoption of ______to research participants.",
       options: [
         {
           id: "A",
@@ -445,7 +445,7 @@ const BANK = {
     },
     {
       content:
-        "A well-developed research instrument can enhance the response rate and reduce ______ to participate in the research study. If the research instrument and the whole experience in completing the questionnaire is pleasant for the research participants, the response rate can improve. ",
+        "A well-developed research instrument can enhance the response rate and reduce ______ to participate in the research study. If the research instrument and the whole experience in completing the questionnaire is pleasant for the research participants, the response rate can improve.",
       options: [
         {
           id: "A",
@@ -470,7 +470,7 @@ const BANK = {
     },
     {
       content:
-        "Well-trained researchers can enhance response rates and increase ______ and persuasion of key informants. Follow up or contacting the non-respondents periodically, works well in eliminating refusals and convince individuals to participate in the research project. A reminder may be sent to non respondents to complete the questionnaire. ",
+        "Well-trained researchers can enhance response rates and increase ______ and persuasion of key informants. Follow up or contacting the non-respondents periodically, works well in eliminating refusals and convince individuals to participate in the research project. A reminder may be sent to non respondents to complete the questionnaire.",
       options: [
         {
           id: "A",
@@ -495,7 +495,7 @@ const BANK = {
     },
     {
       content:
-        "______ is defined as the process of identifying constructive associations, patterns and trends emerging from accumulated amounts of collected data stored in repositories, through the adoption of pattern recognition and statistical and mathematical approaches. ",
+        "______ is defined as the process of identifying constructive associations, patterns and trends emerging from accumulated amounts of collected data stored in repositories, through the adoption of pattern recognition and statistical and mathematical approaches.",
       options: [
         {
           id: "A",
@@ -520,7 +520,7 @@ const BANK = {
     },
     {
       content:
-        "______ refer to organisations which gather and sell pools of data and information which are developed to address information requirements and needs. ",
+        "______ refer to organisations which gather and sell pools of data and information which are developed to address information requirements and needs.",
       options: [
         {
           id: "A",
@@ -545,7 +545,7 @@ const BANK = {
     },
     {
       content:
-        "______focus on electronic devices which automatically record behaviour and are supplemented by a diary. Such data are used for creating media programmes on air time and developing viewer profiles. ",
+        "______focus on electronic devices which automatically record behaviour and are supplemented by a diary. Such data are used for creating media programmes on air time and developing viewer profiles.",
       options: [
         {
           id: "A",
@@ -570,7 +570,7 @@ const BANK = {
     },
     {
       content:
-        "Market research assists companies in moving in the right manner, and in this vein, companies can use the collected information in order to improve strategic decision making and to improve customer ______. ",
+        "Market research assists companies in moving in the right manner, and in this vein, companies can use the collected information in order to improve strategic decision making and to improve customer ______.",
       options: [
         {
           id: "A",
@@ -595,7 +595,7 @@ const BANK = {
     },
     {
       content:
-        "Gathered market research data should be integrated with other research data coming from both ______ and external sources to make the most of their use and to make more confident strategic decision making. ",
+        "Gathered market research data should be integrated with other research data coming from both ______ and external sources to make the most of their use and to make more confident strategic decision making.",
       options: [
         {
           id: "A",
@@ -620,7 +620,7 @@ const BANK = {
     },
     {
       content:
-        "The budget scheduled for research should be considered and in this vein, if there are limited research resources more cost efficient ways of collecting data to be considered including ______ data collection approaches. Right market research data assist companies in better connecting with their customers and attract new customers. ",
+        "The budget scheduled for research should be considered and in this vein, if there are limited research resources more cost efficient ways of collecting data to be considered including ______ data collection approaches. Right market research data assist companies in better connecting with their customers and attract new customers.",
       options: [
         {
           id: "A",
@@ -645,7 +645,7 @@ const BANK = {
     },
     {
       content:
-        "______is defined as the procedure of placing key informants to a continuum regarding their attitude towards a certain product or product line. ",
+        "______is defined as the procedure of placing key informants to a continuum regarding their attitude towards a certain product or product line.",
       options: [
         {
           id: "A",
@@ -670,7 +670,7 @@ const BANK = {
     },
     {
       content:
-        "A ______scale is a figurative labelling scheme in which numbers serve as labels or tags in order to identify and classify objects. ",
+        "A ______scale is a figurative labelling scheme in which numbers serve as labels or tags in order to identify and classify objects.",
       options: [
         {
           id: "A",
@@ -695,7 +695,7 @@ const BANK = {
     },
     {
       content:
-        "______scale is a scale where the numbers used to rank objects such as numerically equal distances on the scale demonstrate equal distances in the attribute being measured. ",
+        "______scale is a scale where the numbers used to rank objects such as numerically equal distances on the scale demonstrate equal distances in the attribute being measured.",
       options: [
         {
           id: "A",
@@ -720,7 +720,7 @@ const BANK = {
     },
     {
       content:
-        "______scaling focuses on two objects which the respondents are asked to select one according to some criterion. ",
+        "______scaling focuses on two objects which the respondents are asked to select one according to some criterion.",
       options: [
         {
           id: "A",
@@ -745,7 +745,7 @@ const BANK = {
     },
     {
       content:
-        "The development of a ______scale commences with a concept which should be rated, such as the image of a brand or the quality of a service. The market researcher chooses opposite pairs of words or phrases (for instance, reliable (1) to unreliable (7)) which could be used to capture the concept. As a next step, respondents rate the concept on a scale which is usually anchored from 1 to 7. ",
+        "The development of a ______scale commences with a concept which should be rated, such as the image of a brand or the quality of a service. The market researcher chooses opposite pairs of words or phrases (for instance, reliable (1) to unreliable (7)) which could be used to capture the concept. As a next step, respondents rate the concept on a scale which is usually anchored from 1 to 7.",
       options: [
         {
           id: "A",
@@ -770,7 +770,7 @@ const BANK = {
     },
     {
       content:
-        "In ______scale a single adjective (e.g., user friendly, high quality) is located in the centre of the scale which usually is a 10 point scale that ranges from +5 to -5. The approach is designed to operationalise the direction and the intensity of the attitudes at the same time. ",
+        "In ______scale a single adjective (e.g., user friendly, high quality) is located in the centre of the scale which usually is a 10 point scale that ranges from +5 to -5. The approach is designed to operationalise the direction and the intensity of the attitudes at the same time.",
       options: [
         {
           id: "A",
@@ -795,7 +795,7 @@ const BANK = {
     },
     {
       content:
-        "The ______scale consists of a number of statements that communicate a favourable or unfavourable attitude toward the concept that is under investigation. ",
+        "The ______scale consists of a number of statements that communicate a favourable or unfavourable attitude toward the concept that is under investigation.",
       options: [
         {
           id: "A",
@@ -820,7 +820,7 @@ const BANK = {
     },
     {
       content:
-        "Under the spectrum of a ______case study, the researcher concentrates on an issue or concern and as a next step chooses a bounded case study to depict the case. ",
+        "Under the spectrum of a ______case study, the researcher concentrates on an issue or concern and as a next step chooses a bounded case study to depict the case.",
       options: [
         {
           id: "A",
@@ -845,7 +845,7 @@ const BANK = {
     },
     {
       content:
-        "In a collective case study or ______case study the issue to be investigated is selected but the researcher chooses a number of case studies to depict the issue. Such an action helps to investigate different aspects of the issue under investigation. ",
+        "In a collective case study or ______case study the issue to be investigated is selected but the researcher chooses a number of case studies to depict the issue. Such an action helps to investigate different aspects of the issue under investigation.",
       options: [
         {
           id: "A",
@@ -870,7 +870,7 @@ const BANK = {
     },
     {
       content:
-        "Qualitative researchers are reluctant to generalise the cases from one context to another because the contexts of the various cases are different. If the intention is to generalise, the qualitative researcher should select ______ cases to be considered in the qualitative study. ",
+        "Qualitative researchers are reluctant to generalise the cases from one context to another because the contexts of the various cases are different. If the intention is to generalise, the qualitative researcher should select ______ cases to be considered in the qualitative study.",
       options: [
         {
           id: "A",
@@ -895,7 +895,7 @@ const BANK = {
     },
     {
       content:
-        "Phenomenologists identify a phenomenon which serves as an object or the unit of analysis and is related to an individual ______. ",
+        "Phenomenologists identify a phenomenon which serves as an object or the unit of analysis and is related to an individual ______.",
       options: [
         {
           id: "A",
@@ -920,7 +920,7 @@ const BANK = {
     },
     {
       content:
-        "The combination of both the ______ and structural descriptions offer the whole essence of the experience with the phenomenon. ",
+        "The combination of both the ______ and structural descriptions offer the whole essence of the experience with the phenomenon.",
       options: [
         {
           id: "A",
@@ -945,7 +945,7 @@ const BANK = {
     },
     {
       content:
-        "The ______process is based upon the stages of the action research cycle which consists of a number of different stages. ",
+        "The ______process is based upon the stages of the action research cycle which consists of a number of different stages.",
       options: [
         {
           id: "A",
@@ -974,7 +974,7 @@ const BANK = {
     },
     {
       content:
-        "In action research, it is essential to construct the initiative with pertinent stakeholders and to produce and gather research data regarding an ongoing system that is relevant to an objective or a need or requirement; ______with others in order to review the data which was collected. ",
+        "In action research, it is essential to construct the initiative with pertinent stakeholders and to produce and gather research data regarding an ongoing system that is relevant to an objective or a need or requirement; ______with others in order to review the data which was collected.",
       options: [
         {
           id: "A",
@@ -999,7 +999,7 @@ const BANK = {
     },
     {
       content:
-        "Two popular types of ethnography include realist ethnography and ______ ethnography. ",
+        "Two popular types of ethnography include realist ethnography and ______ ethnography.",
       options: [
         {
           id: "A",
@@ -1024,7 +1024,7 @@ const BANK = {
     },
     {
       content:
-        "______ethnography represents an objective picture of a situation such as customer reactions towards a branded product, with the objective of reporting the information learned by research participants in the research field. Under this type of ethnography, the ethnographer narrates the study in third-person and objectively reports what has been discovered by the research participants. The researcher reports the collected information without any personal bias. The ethnographer generates the research participants point of view by using carefully edited quotations and should objectively communicate and interpret the group culture that is being analysed. ",
+        "______ethnography represents an objective picture of a situation such as customer reactions towards a branded product, with the objective of reporting the information learned by research participants in the research field. Under this type of ethnography, the ethnographer narrates the study in third-person and objectively reports what has been discovered by the research participants. The researcher reports the collected information without any personal bias. The ethnographer generates the research participants point of view by using carefully edited quotations and should objectively communicate and interpret the group culture that is being analysed.",
       options: [
         {
           id: "A",
@@ -1049,7 +1049,7 @@ const BANK = {
     },
     {
       content:
-        "Critical ethnography is researchers who are politically minded people who aim to use their research to speak against ______. Critical ethnographers may research brands and their relationships with customers. Ethnographic research can offer an accurate understanding of consumer behaviour which helps with the modelling of branding as it is socially perceived by consumers. ",
+        "Critical ethnography is researchers who are politically minded people who aim to use their research to speak against ______. Critical ethnographers may research brands and their relationships with customers. Ethnographic research can offer an accurate understanding of consumer behaviour which helps with the modelling of branding as it is socially perceived by consumers.",
       options: [
         {
           id: "A",
@@ -1073,7 +1073,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "Which of the following statements about research are valid? ",
+      content: "Which of the following statements about research are valid?",
       options: [
         {
           id: "A",
@@ -1102,7 +1102,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following statements about societal investments in research are valid? ",
+        "Which of the following statements about societal investments in research are valid?",
       options: [
         {
           id: "A",
@@ -1131,7 +1131,7 @@ const BANK = {
     },
     {
       content:
-        "This question is about originality. When can a research result be defined original? ",
+        "This question is about originality. When can a research result be defined original?",
       options: [
         {
           id: "A",
@@ -1160,7 +1160,7 @@ const BANK = {
     },
     {
       content:
-        "This question is about significance. When can a research result be defined significant? ",
+        "This question is about significance. When can a research result be defined significant?",
       options: [
         {
           id: "A",
@@ -1189,7 +1189,7 @@ const BANK = {
     },
     {
       content:
-        "This question is about rigor. When can a research result be defined rigorous? ",
+        "This question is about rigor. When can a research result be defined rigorous?",
       options: [
         {
           id: "A",
@@ -1218,7 +1218,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following statements about the distinction between basic and applied research are acceptable? ",
+        "Which of the following statements about the distinction between basic and applied research are acceptable?",
       options: [
         {
           id: "A",
@@ -1247,7 +1247,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following statements about funded research programs are appropriate? ",
+        "Which of the following statements about funded research programs are appropriate?",
       options: [
         {
           id: "A",
@@ -1270,13 +1270,13 @@ const BANK = {
           text: "A top-down research program gives researcher maximum freedom in selecting research topics.",
         },
       ],
-      answers: ["B"],
+      answers: ["B", "C"],
       type: "MC",
       group: "GNRL",
     },
     {
       content:
-        "Tick one or more of the following statements, which properly describes the scientific method, originated in the 17th century by scientists like Galileo, Newton, and others. ",
+        "Tick one or more of the following statements, which properly describes the scientific method, originated in the 17th century by scientists like Galileo, Newton, and others.",
       options: [
         {
           id: "A",
@@ -1304,7 +1304,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "What is a null hypothesis? Tick the correct answer. ",
+      content: "What is a null hypothesis? Tick the correct answer.",
       options: [
         {
           id: "A",
@@ -1382,7 +1382,7 @@ const BANK = {
     },
     {
       content:
-        "Consider the following statements: All beans in the bag are white These beans are from the bag These beans are white Which of the following statements about inferences are correct? ",
+        "Consider the following statements: All beans in the bag are white These beans are from the bag These beans are white Which of the following statements about inferences are correct?",
       options: [
         {
           id: "A",
@@ -1411,7 +1411,7 @@ const BANK = {
     },
     {
       content:
-        "Soundness vs. completeness of a theory of a certain phenomenon. Tick the correct statements. ",
+        "Soundness vs. completeness of a theory of a certain phenomenon. Tick the correct statements.",
       options: [
         {
           id: "A",
@@ -1440,7 +1440,7 @@ const BANK = {
     },
     {
       content:
-        "Consider the following statements about precision and recall of an algorithm. Which are correct? ",
+        "Consider the following statements about precision and recall of an algorithm. Which are correct?",
       options: [
         {
           id: "A",
@@ -1469,7 +1469,7 @@ const BANK = {
     },
     {
       content:
-        "Consider the following statements about case studies in research. Tick the pertinent answers. ",
+        "Consider the following statements about case studies in research. Tick the pertinent answers.",
       options: [
         {
           id: "A",
@@ -1498,7 +1498,7 @@ const BANK = {
     },
     {
       content:
-        "Consider an algorithm that is supposed to find all possible occurrences in a text of person's names. We are aware of the difficulty of the problem, and we expect the algorithm to provide an approximate solution. In some cases, understanding whether a word represents a person's name may in fact require deep semantic understanding of the text. Being an approximation, the algorithm may provide false positives and false negatives. Which of the following statements are correct? ",
+        "Consider an algorithm that is supposed to find all possible occurrences in a text of person's names. We are aware of the difficulty of the problem, and we expect the algorithm to provide an approximate solution. In some cases, understanding whether a word represents a person's name may in fact require deep semantic understanding of the text. Being an approximation, the algorithm may provide false positives and false negatives. Which of the following statements are correct?",
       options: [
         {
           id: "A",
@@ -1527,7 +1527,7 @@ const BANK = {
     },
     {
       content:
-        "You are asked to review a survey paper. In which of the following dimensions you are not expecting the paper to be particularly strong? Tick one. ",
+        "You are asked to review a survey paper. In which of the following dimensions you are not expecting the paper to be particularly strong? Tick one.",
       options: [
         {
           id: "A",
@@ -1548,7 +1548,7 @@ const BANK = {
     },
     {
       content:
-        "You are asked to review a theoretical research paper. In which of the following quality dimensions you expect the paper to be particularly strong? Tick one. ",
+        "You are asked to review a theoretical research paper. In which of the following quality dimensions you expect the paper to be particularly strong? Tick one.",
       options: [
         {
           id: "A",
@@ -1569,7 +1569,7 @@ const BANK = {
     },
     {
       content:
-        "The following statements are about journal and conference publication. Tick the ones that are valid: ",
+        "The following statements are about journal and conference publication. Tick the ones that are valid:",
       options: [
         {
           id: "A",
@@ -1598,7 +1598,7 @@ const BANK = {
     },
     {
       content:
-        "The publication process relies on peer review. Which of the following statements are valid? Tick them. ",
+        "The publication process relies on peer review. Which of the following statements are valid? Tick them.",
       options: [
         {
           id: "A",
@@ -1627,7 +1627,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following are valid statements about peer review? Tick them. ",
+        "Which of the following are valid statements about peer review? Tick them.",
       options: [
         {
           id: "A",
@@ -1656,7 +1656,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following are valid statements about publications? Tick them. ",
+        "Which of the following are valid statements about publications? Tick them.",
       options: [
         {
           id: "A",
@@ -1685,7 +1685,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following statements about research artifacts are valid? Tick them. ",
+        "Which of the following statements about research artifacts are valid? Tick them.",
       options: [
         {
           id: "A",
@@ -1714,7 +1714,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following statements about Open Access are valid? Tick them. ",
+        "Which of the following statements about Open Access are valid? Tick them.",
       options: [
         {
           id: "A",
@@ -1743,7 +1743,7 @@ const BANK = {
     },
     {
       content:
-        "Gold vs Green Open Access: which statements are correct? Tick them. ",
+        "Gold vs Green Open Access: which statements are correct? Tick them.",
       options: [
         {
           id: "A",
@@ -1817,7 +1817,7 @@ const BANK = {
     },
     {
       content:
-        "This is a list of possible goals of a PhD student. Tick the three most important. ",
+        "This is a list of possible goals of a PhD student. Tick the three most important.",
       options: [
         {
           id: "A",
@@ -1846,7 +1846,7 @@ const BANK = {
     },
     {
       content:
-        "These are statements about networking as a PhD student. Tick the two most pertinent. ",
+        "These are statements about networking as a PhD student. Tick the two most pertinent.",
       options: [
         {
           id: "A",
@@ -1875,7 +1875,7 @@ const BANK = {
     },
     {
       content:
-        "These are statements about research funding. Tick the three most pertinent. ",
+        "These are statements about research funding. Tick the three most pertinent.",
       options: [
         {
           id: "A",
@@ -1904,7 +1904,7 @@ const BANK = {
     },
     {
       content:
-        "These are possible achievements of a junior researcher who is applying for a tenure-track position in a research-oriented academic environment. Tick the three most relevant for hiring. ",
+        "These are possible achievements of a junior researcher who is applying for a tenure-track position in a research-oriented academic environment. Tick the three most relevant for hiring.",
       options: [
         {
           id: "A",
@@ -1933,7 +1933,7 @@ const BANK = {
     },
     {
       content:
-        "A junior researcher, after the PhD and a short period as a post-doc, applies for junior tenure-track position in an academic institution. Reference letters are asked to external experts. Tick the items in the following list which are expected to be in a reference letter. ",
+        "A junior researcher, after the PhD and a short period as a post-doc, applies for junior tenure-track position in an academic institution. Reference letters are asked to external experts. Tick the items in the following list which are expected to be in a reference letter.",
       options: [
         {
           id: "A",
@@ -1962,7 +1962,7 @@ const BANK = {
     },
     {
       content:
-        "Consider the case where a researcher applies for promotion from a non-permanent to a permanent academic position. The following statements refer to reference letters asked to external experts to support the promotion case. Tick the pertinent statements. ",
+        "Consider the case where a researcher applies for promotion from a non-permanent to a permanent academic position. The following statements refer to reference letters asked to external experts to support the promotion case. Tick the pertinent statements.",
       options: [
         {
           id: "A",
@@ -1991,7 +1991,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following statements on paper citations are valid? Tick them. ",
+        "Which of the following statements on paper citations are valid? Tick them.",
       options: [
         {
           id: "A",
@@ -2020,7 +2020,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following statements on Impact Factor (IF) are valid? Tick them. ",
+        "Which of the following statements on Impact Factor (IF) are valid? Tick them.",
       options: [
         {
           id: "A",
@@ -2049,7 +2049,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following statements on H-index are valid? Tick them. ",
+        "Which of the following statements on H-index are valid? Tick them.",
       options: [
         {
           id: "A",
@@ -2078,7 +2078,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following statements on quantitative evaluation via bibliometrics are valid? Tick them. ",
+        "Which of the following statements on quantitative evaluation via bibliometrics are valid? Tick them.",
       options: [
         {
           id: "A",
@@ -2107,7 +2107,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following statements on ethics are correct? Tick them. ",
+        "Which of the following statements on ethics are correct? Tick them.",
       options: [
         {
           id: "A",
@@ -2213,7 +2213,7 @@ const BANK = {
     },
     {
       content:
-        "A researcher is a member of a program committee which decides acceptance of papers submitted to a conference and one of her PhD student submits a paper. Can the researcher be present in the discussion about acceptance of the paper? ",
+        "A researcher is a member of a program committee which decides acceptance of papers submitted to a conference and one of her PhD student submits a paper. Can the researcher be present in the discussion about acceptance of the paper?",
       options: [
         {
           id: "A",
@@ -2230,7 +2230,7 @@ const BANK = {
     },
     {
       content:
-        "A researcher is acting department chair. She is a member of a national committee which decides about funding. A member of her department submits a proposal. Can she participate in discussions that involve the proposal? ",
+        "A researcher is acting department chair. She is a member of a national committee which decides about funding. A member of her department submits a proposal. Can she participate in discussions that involve the proposal?",
       options: [
         {
           id: "A",
@@ -2247,7 +2247,7 @@ const BANK = {
     },
     {
       content:
-        "A researcher 's promotion case is discussed in a department. Her partner in life is a senior member of the department. The two are not officially married. Should the senior member participate in the discussions and vote? ",
+        "A researcher 's promotion case is discussed in a department. Her partner in life is a senior member of the department. The two are not officially married. Should the senior member participate in the discussions and vote?",
       options: [
         {
           id: "A",
@@ -2264,7 +2264,7 @@ const BANK = {
     },
     {
       content:
-        "Your department decides to recognize the best PhD thesis of the year with a special award. All members of the department vote their preferences. Should one be allowed to vote for the thesis of own students? ",
+        "Your department decides to recognize the best PhD thesis of the year with a special award. All members of the department vote their preferences. Should one be allowed to vote for the thesis of own students?",
       options: [
         {
           id: "A",
@@ -2281,7 +2281,7 @@ const BANK = {
     },
     {
       content:
-        "You are asked to review a paper submitted for publication in a journal. Can you freely copy and circulate it to your students who are working on a project on the same topic? ",
+        "You are asked to review a paper submitted for publication in a journal. Can you freely copy and circulate it to your students who are working on a project on the same topic?",
       options: [
         {
           id: "A",
@@ -2298,7 +2298,7 @@ const BANK = {
     },
     {
       content:
-        "You submit a paper to conference which adopts a double-blind review process. Is your identity confidential information that the conference organizers cannot disclose to reviewers? ",
+        "You submit a paper to conference which adopts a double-blind review process. Is your identity confidential information that the conference organizers cannot disclose to reviewers?",
       options: [
         {
           id: "A",
@@ -2315,7 +2315,7 @@ const BANK = {
     },
     {
       content:
-        "You are a member of the program committee of a conference and participate in the discussions about acceptance of submitted papers. Later you chat with an author of an accepted paper. Can you disclose the names of the reviewers of the papers? ",
+        "You are a member of the program committee of a conference and participate in the discussions about acceptance of submitted papers. Later you chat with an author of an accepted paper. Can you disclose the names of the reviewers of the papers?",
       options: [
         {
           id: "A",
@@ -2332,7 +2332,7 @@ const BANK = {
     },
     {
       content:
-        "You are a member of the program committee of a conference and participate in the discussions about acceptance of submitted papers. Later you chat with an author of a rejected paper. Can you disclose the names of the reviewers of the papers? ",
+        "You are a member of the program committee of a conference and participate in the discussions about acceptance of submitted papers. Later you chat with an author of a rejected paper. Can you disclose the names of the reviewers of the papers?",
       options: [
         {
           id: "A",
@@ -2349,7 +2349,7 @@ const BANK = {
     },
     {
       content:
-        "You are a member of a panel in charge of selecting research projects for funding. A researcher who did not succeed in the competition contacts you, asking for advice on how to write a better proposal in the future. Can you pass a copy of a successful application for reference as a good example? ",
+        "You are a member of a panel in charge of selecting research projects for funding. A researcher who did not succeed in the competition contacts you, asking for advice on how to write a better proposal in the future. Can you pass a copy of a successful application for reference as a good example?",
       options: [
         {
           id: "A",
@@ -2366,7 +2366,7 @@ const BANK = {
     },
     {
       content:
-        "You are asked to review a paper submitted for publication in a journal. The paper is an identical copy of a paper you previously reviewed for another journal. The paper was rejected for several serious concerns raised by the reviewers. Can your review, which recommends rejection, mention that the paper has been resubmitted with no change, completely ignoring the careful reviews received previously? ",
+        "You are asked to review a paper submitted for publication in a journal. The paper is an identical copy of a paper you previously reviewed for another journal. The paper was rejected for several serious concerns raised by the reviewers. Can your review, which recommends rejection, mention that the paper has been resubmitted with no change, completely ignoring the careful reviews received previously?",
       options: [
         {
           id: "A",
@@ -2383,7 +2383,7 @@ const BANK = {
     },
     {
       content:
-        "You are asked to review a paper. Suppose you become aware of the identity of the other reviewers. Before you form your own opinion and write your review, you would like to contact the other reviewers asking their opinion about the paper, so that your review report can be in line with theirs. Is this an acceptable practice? ",
+        "You are asked to review a paper. Suppose you become aware of the identity of the other reviewers. Before you form your own opinion and write your review, you would like to contact the other reviewers asking their opinion about the paper, so that your review report can be in line with theirs. Is this an acceptable practice?",
       options: [
         {
           id: "A",
@@ -2400,7 +2400,7 @@ const BANK = {
     },
     {
       content:
-        "You always say no to requests to review papers from journals with very low reputation and in all cases of predatory publishing. Is this an acceptable practice? ",
+        "You always say no to requests to review papers from journals with very low reputation and in all cases of predatory publishing. Is this an acceptable practice?",
       options: [
         {
           id: "A",
@@ -2417,7 +2417,7 @@ const BANK = {
     },
     {
       content:
-        "You are a successful researcher, coordinating a group with several PhD students and post-docs, and coordinating three funded research projects. You submit for publication several papers a year. To maximize your research productivity, you decide that for a few years you will not accept to review any papers. Is this an acceptable practice? ",
+        "You are a successful researcher, coordinating a group with several PhD students and post-docs, and coordinating three funded research projects. You submit for publication several papers a year. To maximize your research productivity, you decide that for a few years you will not accept to review any papers. Is this an acceptable practice?",
       options: [
         {
           id: "A",
@@ -2434,7 +2434,7 @@ const BANK = {
     },
     {
       content:
-        "You have just completed your PhD and you receive a kind invitation from journal you never heard of before to become a member of their international editorial board. This is the first invitation you receive. Without any hesitation, you accept the invitation. Is this an acceptable practice? ",
+        "You have just completed your PhD and you receive a kind invitation from journal you never heard of before to become a member of their international editorial board. This is the first invitation you receive. Without any hesitation, you accept the invitation. Is this an acceptable practice?",
       options: [
         {
           id: "A",
@@ -2451,7 +2451,7 @@ const BANK = {
     },
     {
       content:
-        "Human subjects can only be the subjects of research in life sciences and social sciences. ",
+        "Human subjects can only be the subjects of research in life sciences and social sciences.",
       options: [
         {
           id: "A",
@@ -2467,40 +2467,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "Humans participating as subjects in research must be paid. ",
-      options: [
-        {
-          id: "A",
-          text: "Yes",
-        },
-        {
-          id: "B",
-          text: "No",
-        },
-      ],
-      answers: ["B"],
-      type: "TF",
-      group: "GNRL",
-    },
-    {
-      content:
-        "In your research you use your students as subjects for a research experiment. Participation in the experiment is a mandatory requirement for students to pass the exam. There is nothing wrong in what you do. ",
-      options: [
-        {
-          id: "A",
-          text: "Yes",
-        },
-        {
-          id: "B",
-          text: "No",
-        },
-      ],
-      answers: ["B"],
-      type: "TF",
-      group: "GNRL",
-    },
-    {
-      content: "Children can never be participating subjects in a research. ",
+      content: "Humans participating as subjects in research must be paid.",
       options: [
         {
           id: "A",
@@ -2517,7 +2484,40 @@ const BANK = {
     },
     {
       content:
-        "Informed and uncoerced consent are required preconditions for participation of human subjects in research. ",
+        "In your research you use your students as subjects for a research experiment. Participation in the experiment is a mandatory requirement for students to pass the exam. There is nothing wrong in what you do.",
+      options: [
+        {
+          id: "A",
+          text: "Yes",
+        },
+        {
+          id: "B",
+          text: "No",
+        },
+      ],
+      answers: ["B"],
+      type: "TF",
+      group: "GNRL",
+    },
+    {
+      content: "Children can never be participating subjects in a research.",
+      options: [
+        {
+          id: "A",
+          text: "Yes",
+        },
+        {
+          id: "B",
+          text: "No",
+        },
+      ],
+      answers: ["B"],
+      type: "TF",
+      group: "GNRL",
+    },
+    {
+      content:
+        "Informed and uncoerced consent are required preconditions for participation of human subjects in research.",
       options: [
         {
           id: "A",
@@ -2534,7 +2534,7 @@ const BANK = {
     },
     {
       content:
-        "Once human subjects sign an informed consent form, the data they provide as research subjects can be freely used and disclosed by researchers, without any restriction. ",
+        "Once human subjects sign an informed consent form, the data they provide as research subjects can be freely used and disclosed by researchers, without any restriction.",
       options: [
         {
           id: "A",
@@ -2551,7 +2551,7 @@ const BANK = {
     },
     {
       content:
-        "The data collected from human subjects must be anonymized prior to disclosure. ",
+        "The data collected from human subjects must be anonymized prior to disclosure.",
       options: [
         {
           id: "A",
@@ -2568,7 +2568,7 @@ const BANK = {
     },
     {
       content:
-        "Once human subjects sign an informed consent form, no special procedures must be put in place to researchers to protect the data they provide as research subjects. ",
+        "Once human subjects sign an informed consent form, no special procedures must be put in place to researchers to protect the data they provide as research subjects.",
       options: [
         {
           id: "A",
@@ -2585,7 +2585,7 @@ const BANK = {
     },
     {
       content:
-        "Once human subjects sign an informed consent form, all personal data collected by researchers about participating human subjects can be transferred without any additional constraint only to other researchers. Any other kind of disclosure is not permitted. ",
+        "Once human subjects sign an informed consent form, all personal data collected by researchers about participating human subjects can be transferred without any additional constraint only to other researchers. Any other kind of disclosure is not permitted.",
       options: [
         {
           id: "A",
@@ -2602,7 +2602,7 @@ const BANK = {
     },
     {
       content:
-        "To prevent identification of a participating human subject, you decide to anonymize the collected data by not disclosing the name, address and phone number. Does this always solve the problem? ",
+        "To prevent identification of a participating human subject, you decide to anonymize the collected data by not disclosing the name, address and phone number. Does this always solve the problem?",
       options: [
         {
           id: "A",
@@ -2619,7 +2619,7 @@ const BANK = {
     },
     {
       content:
-        "My research focuses on development of new technology. Shouldn't it be intrinsically insensitive to ethical concerns? ",
+        "My research focuses on development of new technology. Shouldn't it be intrinsically insensitive to ethical concerns?",
       options: [
         {
           id: "A",
@@ -2636,7 +2636,7 @@ const BANK = {
     },
     {
       content:
-        "My research focuses on game design, more specifically on usability of a new interactive device. May this raise ethical concerns? ",
+        "My research focuses on game design, more specifically on usability of a new interactive device. May this raise ethical concerns?",
       options: [
         {
           id: "A",
@@ -2653,7 +2653,7 @@ const BANK = {
     },
     {
       content:
-        "My research focuses on the use of humanoid robots as a possible aid to support interaction with autistic children. May this raise ethical concerns? ",
+        "My research focuses on the use of humanoid robots as a possible aid to support interaction with autistic children. May this raise ethical concerns?",
       options: [
         {
           id: "A",
@@ -2670,7 +2670,7 @@ const BANK = {
     },
     {
       content:
-        "My research focuses on generating optimal machine code for a new special-purpose hardware. May this raise ethical concerns? ",
+        "My research focuses on generating optimal machine code for a new special-purpose hardware. May this raise ethical concerns?",
       options: [
         {
           id: "A",
@@ -2687,7 +2687,7 @@ const BANK = {
     },
     {
       content:
-        "My research focuses on sentiment analysis. I try to identify and extract subjective information by monitoring online conversations in social media and help business to understand the social sentiment. May this raise ethical concerns? ",
+        "My research focuses on sentiment analysis. I try to identify and extract subjective information by monitoring online conversations in social media and help business to understand the social sentiment. May this raise ethical concerns?",
       options: [
         {
           id: "A",
@@ -2703,7 +2703,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "What is a good way to make your academic essays longer? ",
+      content: "What is a good way to make your academic essays longer?",
       options: [
         {
           id: "A",
@@ -2724,7 +2724,7 @@ const BANK = {
     },
     {
       content:
-        "Argument essays should have at least how many reasons to support the argument? ",
+        "Argument essays should have at least how many reasons to support the argument?",
       options: [
         {
           id: "A",
@@ -2774,7 +2774,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following are types of paragraphs (modes of discourse) that you can use to help develop an argument essay? ",
+        "Which of the following are types of paragraphs (modes of discourse) that you can use to help develop an argument essay?",
       options: [
         {
           id: "A",
@@ -2798,7 +2798,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "What type of body paragraph is this? ",
+      content: "What type of body paragraph is this?",
       options: [
         {
           id: "A",
@@ -2823,7 +2823,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following are features of an advanced argument essay? Check all that apply. ",
+        "Which of the following are features of an advanced argument essay? Check all that apply.",
       options: [
         {
           id: "A",
@@ -2848,7 +2848,7 @@ const BANK = {
     },
     {
       content:
-        "What do you have to remember to do when you use an outside source in your academic essays? Check all that apply. ",
+        "What do you have to remember to do when you use an outside source in your academic essays? Check all that apply.",
       options: [
         {
           id: "A",
@@ -2873,7 +2873,7 @@ const BANK = {
     },
     {
       content:
-        "Read the original source on the left and the student's writing on the right and decide if the student plagiarized or not. Original Source This can be seen around the world. The World Health Organization and many nations have issued dietary guidelines to address a global epidemic of noncommunicable diseases that is far from limited to high-income countries. Global diets have converged such that the same principles for dietary change apply to some extent in all countries. The increase in noncommunicable diseases in low- and middle-income countries is more rapid, and has worse consequences than in high-income countries, according to the Council on Foreign Relations. Moreover, the challenge of combating noncommunicable diseases along with under-nutrition is substantially greater in these countries. Kumanyika, Shiriki. \"Aligning Policies on Nutrition, Food, Environment for Sustainable Future.\" The Nation's Health Mar. 2015: 3. Academic OneFile. Web. 2 July 2015. Student's Writing Many health agencies around the world are busy issuing dietary guidelines to address a global epidemic of non- communicable diseases, such as heart disease (Kumanyika). This is important because developing countries are having an increase in non-communicable diseases recently. ",
+        "Read the original source on the left and the student's writing on the right and decide if the student plagiarized or not. Original Source This can be seen around the world. The World Health Organization and many nations have issued dietary guidelines to address a global epidemic of noncommunicable diseases that is far from limited to high-income countries. Global diets have converged such that the same principles for dietary change apply to some extent in all countries. The increase in noncommunicable diseases in low- and middle-income countries is more rapid, and has worse consequences than in high-income countries, according to the Council on Foreign Relations. Moreover, the challenge of combating noncommunicable diseases along with under-nutrition is substantially greater in these countries. Kumanyika, Shiriki. \"Aligning Policies on Nutrition, Food, Environment for Sustainable Future.\" The Nation's Health Mar. 2015: 3. Academic OneFile. Web. 2 July 2015. Student's Writing Many health agencies around the world are busy issuing dietary guidelines to address a global epidemic of non- communicable diseases, such as heart disease (Kumanyika). This is important because developing countries are having an increase in non-communicable diseases recently.",
       options: [
         {
           id: "A",
@@ -2890,7 +2890,7 @@ const BANK = {
     },
     {
       content:
-        "Read the original source on the left and the student's writing on the right and decide if the student plagiarized or not. Original Source On the small islands, the main centers are accessible to most stayover tourists. These centers range in metropolitan population from about five thousand in Plymouth to almost one hundred thousand in Bridgetown and in Fort-de-France, Martinique. They possess a broad array of functions and facilities that is disproportionate to urban size. Nevertheless, the overall volume of activity and the physical space in which it occurs are constrained. The potential for tourist-local interaction is enhanced, and tourism assumes a high profile both physically and economically, even when the actual volume of the visitation is not high. The principal centers are always ports, which indicates the importance of cruise-ship activity as a factor in determining the geographical patterns. Weaver, David B. \"Model of Urban Tourism for Small Caribbean Islands.\" Geographical Review 83.2 (1993): 134-140. JSTOR. Web. 9 July 2015 Student's Writing Tourism is one way that small islands can survive. David Weaver indicates that the number of ports in the Caribbean shows the importance of cruise ships in that area. He explains that these cruise ships make it possible for a large amount of tourism in the area (Weaver). ",
+        "Read the original source on the left and the student's writing on the right and decide if the student plagiarized or not. Original Source On the small islands, the main centers are accessible to most stayover tourists. These centers range in metropolitan population from about five thousand in Plymouth to almost one hundred thousand in Bridgetown and in Fort-de-France, Martinique. They possess a broad array of functions and facilities that is disproportionate to urban size. Nevertheless, the overall volume of activity and the physical space in which it occurs are constrained. The potential for tourist-local interaction is enhanced, and tourism assumes a high profile both physically and economically, even when the actual volume of the visitation is not high. The principal centers are always ports, which indicates the importance of cruise-ship activity as a factor in determining the geographical patterns. Weaver, David B. \"Model of Urban Tourism for Small Caribbean Islands.\" Geographical Review 83.2 (1993): 134-140. JSTOR. Web. 9 July 2015 Student's Writing Tourism is one way that small islands can survive. David Weaver indicates that the number of ports in the Caribbean shows the importance of cruise ships in that area. He explains that these cruise ships make it possible for a large amount of tourism in the area (Weaver).",
       options: [
         {
           id: "A",
@@ -2907,7 +2907,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? It's ok to borrow some ideas from an outside source as long as you don't copy the exact words in your own essay. ",
+        "True or False? It's ok to borrow some ideas from an outside source as long as you don't copy the exact words in your own essay.",
       options: [
         {
           id: "A",
@@ -2924,7 +2924,7 @@ const BANK = {
     },
     {
       content:
-        "To avoid plagiarism, which of the following should you do? Check all that apply. ",
+        "To avoid plagiarism, which of the following should you do? Check all that apply.",
       options: [
         {
           id: "A",
@@ -2945,7 +2945,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following can happen if a student is caught plagiarizing in an American college? Check all that apply. ",
+        "Which of the following can happen if a student is caught plagiarizing in an American college? Check all that apply.",
       options: [
         {
           id: "A",
@@ -2969,7 +2969,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "What does synthesis mean in a synthesis essay? ",
+      content: "What does synthesis mean in a synthesis essay?",
       options: [
         {
           id: "A",
@@ -2993,7 +2993,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "What are sources used for in a synthesis essay? ",
+      content: "What are sources used for in a synthesis essay?",
       options: [
         {
           id: "A",
@@ -3018,7 +3018,7 @@ const BANK = {
     },
     {
       content:
-        "Is the following quote well-integrated, or blended with the writer's own words? It was not surprising to many people that a judge decided that Robin Thicke had \\\"noticeably ripped off Marvin Gaye's 1977 hit 'Got to Give It Up' when he wrote the smash hit 'Blurred Lines' with Pharrell Williams and T.I.\\\" (Grow). ",
+        "Is the following quote well-integrated, or blended with the writer's own words? It was not surprising to many people that a judge decided that Robin Thicke had \\\"noticeably ripped off Marvin Gaye's 1977 hit 'Got to Give It Up' when he wrote the smash hit 'Blurred Lines' with Pharrell Williams and T.I.\\\" (Grow).",
       options: [
         {
           id: "A",
@@ -3069,7 +3069,7 @@ const BANK = {
     },
     {
       content:
-        "Is the following quote well-integrated, or blended with the writer's own words? Luckily, \\\"the controversy did not appear to be hurting book sales. On Thursday afternoon 'Axolotl Roadkill' was ninth over all among books on the German Amazon site, albeit with many nasty postings about the plagiarism controversy.\\\" (Kulish). ",
+        "Is the following quote well-integrated, or blended with the writer's own words? Luckily, \\\"the controversy did not appear to be hurting book sales. On Thursday afternoon 'Axolotl Roadkill' was ninth over all among books on the German Amazon site, albeit with many nasty postings about the plagiarism controversy.\\\" (Kulish).",
       options: [
         {
           id: "A",
@@ -3103,7 +3103,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? A documented essay can be written without using any sources. ",
+        "True or False? A documented essay can be written without using any sources.",
       options: [
         {
           id: "A",
@@ -3120,7 +3120,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? A Works Cited entry usually starts with an author's last name. ",
+        "True or False? A Works Cited entry usually starts with an author's last name.",
       options: [
         {
           id: "A",
@@ -3137,7 +3137,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? A parenthetical in-text citation should always use the author's last name. ",
+        "True or False? A parenthetical in-text citation should always use the author's last name.",
       options: [
         {
           id: "A",
@@ -3154,7 +3154,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? A documented essay is usually an illustration or an argument essay. ",
+        "True or False? A documented essay is usually an illustration or an argument essay.",
       options: [
         {
           id: "A",
@@ -3171,7 +3171,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? Sources are used in documented essays to make or introduce important points in the essay. ",
+        "True or False? Sources are used in documented essays to make or introduce important points in the essay.",
       options: [
         {
           id: "A",
@@ -3187,7 +3187,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "True or False? Academic essays should have only 5 paragraphs. ",
+      content: "True or False? Academic essays should have only 5 paragraphs.",
       options: [
         {
           id: "A",
@@ -3204,7 +3204,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? You should use a variety of types of body paragraphs in a documented essay. ",
+        "True or False? You should use a variety of types of body paragraphs in a documented essay.",
       options: [
         {
           id: "A",
@@ -3220,7 +3220,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "How do you integrate a quote well? ",
+      content: "How do you integrate a quote well?",
       options: [
         {
           id: "A",
@@ -3241,7 +3241,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following internet sites would be acceptable to use when searching for sources for a research paper? ",
+        "Which of the following internet sites would be acceptable to use when searching for sources for a research paper?",
       options: [
         {
           id: "A",
@@ -3266,7 +3266,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following is NOT a very good search term for this topic? Topic: Gun Laws ",
+        "Which of the following is NOT a very good search term for this topic? Topic: Gun Laws",
       options: [
         {
           id: "A",
@@ -3291,7 +3291,7 @@ const BANK = {
     },
     {
       content:
-        "According to the lecture, where is the best place to look for sources for a research paper? ",
+        "According to the lecture, where is the best place to look for sources for a research paper?",
       options: [
         {
           id: "A",
@@ -3312,7 +3312,7 @@ const BANK = {
     },
     {
       content:
-        "All of the following are questions to ask when determining reliability of a a source EXCEPT which one? ",
+        "All of the following are questions to ask when determining reliability of a a source EXCEPT which one?",
       options: [
         {
           id: "A",
@@ -3341,7 +3341,7 @@ const BANK = {
     },
     {
       content:
-        "What is the first thing to do after you receive a research paper assignment? ",
+        "What is the first thing to do after you receive a research paper assignment?",
       options: [
         {
           id: "A",
@@ -3362,7 +3362,7 @@ const BANK = {
     },
     {
       content:
-        "Most research papers share all of the following characteristics EXCEPT which one? ",
+        "Most research papers share all of the following characteristics EXCEPT which one?",
       options: [
         {
           id: "A",
@@ -3387,7 +3387,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? Every research assignment you will be assigned in college will have different requirements. ",
+        "True or False? Every research assignment you will be assigned in college will have different requirements.",
       options: [
         {
           id: "A",
@@ -3404,7 +3404,7 @@ const BANK = {
     },
     {
       content:
-        "True or false? For academic research, you should write complete sentences when you take notes on an article. ",
+        "True or false? For academic research, you should write complete sentences when you take notes on an article.",
       options: [
         {
           id: "A",
@@ -3421,7 +3421,7 @@ const BANK = {
     },
     {
       content:
-        "True or false? Most school library webpages have databases that anyone is free to use as long as they have an Internet connection. ",
+        "True or false? Most school library webpages have databases that anyone is free to use as long as they have an Internet connection.",
       options: [
         {
           id: "A",
@@ -3437,7 +3437,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "Which of the following is the most academic kind of source? ",
+      content: "Which of the following is the most academic kind of source?",
       options: [
         {
           id: "A",
@@ -3457,7 +3457,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "What is the purpose of an annotated bibliography? ",
+      content: "What is the purpose of an annotated bibliography?",
       options: [
         {
           id: "A",
@@ -3482,7 +3482,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? You must always use a formal outline to plan an effective research paper. ",
+        "True or False? You must always use a formal outline to plan an effective research paper.",
       options: [
         {
           id: "A",
@@ -3499,7 +3499,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following would be the most effective thesis statement for a research paper? ",
+        "Which of the following would be the most effective thesis statement for a research paper?",
       options: [
         {
           id: "A",
@@ -3524,7 +3524,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? An annotated bibliography for a college class is always written in MLA format. ",
+        "True or False? An annotated bibliography for a college class is always written in MLA format.",
       options: [
         {
           id: "A",
@@ -3541,7 +3541,7 @@ const BANK = {
     },
     {
       content:
-        "Is this phrase appropriate for an academic essay? drunk as a skunk ",
+        "Is this phrase appropriate for an academic essay? drunk as a skunk",
       options: [
         {
           id: "A",
@@ -3557,7 +3557,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "Is this word appropriate for an academic essay? gonna ",
+      content: "Is this word appropriate for an academic essay? gonna",
       options: [
         {
           id: "A",
@@ -3573,7 +3573,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "Is this word appropriate for an academic essay? y'all ",
+      content: "Is this word appropriate for an academic essay? y'all",
       options: [
         {
           id: "A",
@@ -3589,7 +3589,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "Is this word appropriate for an academic essay? therefore ",
+      content: "Is this word appropriate for an academic essay? therefore",
       options: [
         {
           id: "A",
@@ -3606,7 +3606,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? You should use as many academic words as possible in your research paper even if you don't know what all of them mean. ",
+        "True or False? You should use as many academic words as possible in your research paper even if you don't know what all of them mean.",
       options: [
         {
           id: "A",
@@ -3623,7 +3623,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following is not a reason to use a statistic in your research paper? ",
+        "Which of the following is not a reason to use a statistic in your research paper?",
       options: [
         {
           id: "A",
@@ -3644,7 +3644,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following is not an appropriate place to use a statistic in your research paper? ",
+        "Which of the following is not an appropriate place to use a statistic in your research paper?",
       options: [
         {
           id: "A",
@@ -3669,7 +3669,7 @@ const BANK = {
     },
     {
       content:
-        "Which of the following groups of words is definitely not on the Academic Word List? ",
+        "Which of the following groups of words is definitely not on the Academic Word List?",
       options: [
         {
           id: "A",
@@ -3693,7 +3693,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content: "What is EasyBib? ",
+      content: "What is EasyBib?",
       options: [
         {
           id: "A",
@@ -3714,7 +3714,7 @@ const BANK = {
     },
     {
       content:
-        "True or False? If you paste a link to your online source in the EasyBib website, EasyBib will always supply all of the information you need to format your Works Cited entry. ",
+        "True or False? If you paste a link to your online source in the EasyBib website, EasyBib will always supply all of the information you need to format your Works Cited entry.",
       options: [
         {
           id: "A",
@@ -3756,7 +3756,7 @@ const BANK = {
     },
     {
       content:
-        "Use the following link to the Purdue Owl website and click on the MLA Abbreviations tab on the left. Then scroll down to find the answer to the question below. Purdue Owl MLA (https://owl.english.purdue.edu/owl/resource/747/01/) According to MLA 8th ed. what is the correct way to write the month, January, in the publication date for a journal in a Works Cited page? ",
+        "Use the following link to the Purdue Owl website and click on the MLA Abbreviations tab on the left. Then scroll down to find the answer to the question below. Purdue Owl MLA (https://owl.english.purdue.edu/owl/resource/747/01/) According to MLA 8th ed. what is the correct way to write the month, January, in the publication date for a journal in a Works Cited page?",
       options: [
         {
           id: "A",
