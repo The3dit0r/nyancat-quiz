@@ -127,14 +127,14 @@ const BANK = {
     },
     {
       content:
-        "Bộ phận nào dưới đây không phải là một trong ba bộ phận cấu thành của Chủ nghĩa Mác \\- Lênin?",
+        "Bộ phận nào dưới đây không phải là một trong ba bộ phận cấu thành của Chủ nghĩa Mác — Lênin?",
       options: [
         {
-          text: "Triết học Mác \\- Lênin",
+          text: "Triết học Mác — Lênin",
           id: "a",
         },
         {
-          text: "Kinh tế chính trị Mác \\- Lênin",
+          text: "Kinh tế chính trị Mác — Lênin",
           id: "b",
         },
         {
@@ -151,7 +151,7 @@ const BANK = {
       group: "General",
     },
     {
-      content: "Chủ nghĩa Mác \\- Lênin gồm mấy bộ phận cấu thành?",
+      content: "Chủ nghĩa Mác — Lênin gồm mấy bộ phận cấu thành?",
       options: [
         {
           text: "3",
@@ -223,7 +223,7 @@ const BANK = {
       group: "General",
     },
     {
-      content: "Triết học Mác \\- Lênin do ai sáng lập và phát triển?",
+      content: "Triết học Mác — Lênin do ai sáng lập và phát triển?",
       options: [
         {
           text: "C.Mác, Ph.Ăngghen và V.I.Lênin",
@@ -320,7 +320,7 @@ const BANK = {
       group: "General",
     },
     {
-      content: "Đối tượng của triết học Mác \\- Lênin là:",
+      content: "Đối tượng của triết học Mác — Lênin là:",
       options: [
         {
           text: "Toàn bộ những quan điểm về thế giới và về vị trí của con người trong thế giới đó",
@@ -345,22 +345,22 @@ const BANK = {
     },
     {
       content:
-        "Một trong các vai trò cơ bản của triết học Mác \\- Lênin là gì? Chọn phương án đúng nhất.",
+        "Một trong các vai trò cơ bản của triết học Mác — Lênin là gì? Chọn phương án đúng nhất.",
       options: [
         {
-          text: "Triết học Mác \\- Lênin trang bị cho con người hệ thống các khái niệm, phạm trù, quy luật",
+          text: "Triết học Mác — Lênin trang bị cho con người hệ thống các khái niệm, phạm trù, quy luật",
           id: "a",
         },
         {
-          text: "Triết học Mác \\- Lênin là thế giới quan, phương pháp luận khoa học và cách mạng cho con người trong nhận thức và thực tiễn",
+          text: "Triết học Mác — Lênin là thế giới quan, phương pháp luận khoa học và cách mạng cho con người trong nhận thức và thực tiễn",
           id: "b",
         },
         {
-          text: "Triết học Mác \\- Lênin trang bị cho con người các nguyên lý cơ bản của phép biện chứng duy vật",
+          text: "Triết học Mác — Lênin trang bị cho con người các nguyên lý cơ bản của phép biện chứng duy vật",
           id: "c",
         },
         {
-          text: "Triết học Mác \\- Lênin làm sáng tỏ mối quan hệ biện chứng giữa vật chất và ý thức",
+          text: "Triết học Mác — Lênin làm sáng tỏ mối quan hệ biện chứng giữa vật chất và ý thức",
           id: "d",
         },
       ],
@@ -372,19 +372,19 @@ const BANK = {
       content: "Chọn luận điểm đúng trong các luận điểm sau đây:",
       options: [
         {
-          text: "Triết học Mác \\- Lênin không có mối quan hệ gì với các khoa học cụ thể",
+          text: "Triết học Mác — Lênin không có mối quan hệ gì với các khoa học cụ thể",
           id: "a",
         },
         {
-          text: "Triết học Mác \\- Lênin là thể thống nhất với các khoa học cụ thể",
+          text: "Triết học Mác — Lênin là thể thống nhất với các khoa học cụ thể",
           id: "b",
         },
         {
-          text: "Triết học Mác \\- Lênin là con đẻ của các khoa học cụ thể",
+          text: "Triết học Mác — Lênin là con đẻ của các khoa học cụ thể",
           id: "c",
         },
         {
-          text: "Triết học Mác \\- Lênin có mối quan hệ gắn bó chặt chẽ với các khoa học cụ thể (says who???)",
+          text: "Triết học Mác — Lênin có mối quan hệ gắn bó chặt chẽ với các khoa học cụ thể (says who???)",
           id: "d",
         },
       ],
@@ -418,22 +418,22 @@ const BANK = {
     },
     {
       content:
-        "Vai trò nào sau đây không phải là vai trò của triết học Mác \\- Lênin?",
+        "Vai trò nào sau đây không phải là vai trò của triết học Mác — Lênin?",
       options: [
         {
-          text: "Triết học Mác \\- Lênin là thế giới quan, phương pháp luận khoa học và cách mạng cho con người trong nhận thức và thực tiễn",
+          text: "Triết học Mác — Lênin là thế giới quan, phương pháp luận khoa học và cách mạng cho con người trong nhận thức và thực tiễn",
           id: "a",
         },
         {
-          text: "Triết học Mác \\- Lênin là cơ sở thế giới quan và phương pháp luận khoa học và cách mạng để phân tích xu hướng phát triển của xã hội trong điều kiện cuộc cách mạng khoa học và công nghệ hiện đại phát triển mạnh mẽ",
+          text: "Triết học Mác — Lênin là cơ sở thế giới quan và phương pháp luận khoa học và cách mạng để phân tích xu hướng phát triển của xã hội trong điều kiện cuộc cách mạng khoa học và công nghệ hiện đại phát triển mạnh mẽ",
           id: "b",
         },
         {
-          text: "Triết học Mác \\- Lênin là cơ sở để sáng tạo ra các khoa học chuyên ngành",
+          text: "Triết học Mác — Lênin là cơ sở để sáng tạo ra các khoa học chuyên ngành",
           id: "c",
         },
         {
-          text: "Triết học Mác \\- Lênin là cơ sở lý luận khoa học của công cuộc xây dựng chủ nghĩa xã hội trên thế giới và sự nghiệp đổi mới theo định hướng xã hội chủ nghĩa ở Việt Nam",
+          text: "Triết học Mác — Lênin là cơ sở lý luận khoa học của công cuộc xây dựng chủ nghĩa xã hội trên thế giới và sự nghiệp đổi mới theo định hướng xã hội chủ nghĩa ở Việt Nam",
           id: "d",
         },
       ],
@@ -493,14 +493,14 @@ const BANK = {
     },
     {
       content:
-        "Bộ phận giữ vai trò thế giới quan và phương pháp luận chung của chủ nghĩa Mác \\- Lênin là gì?",
+        "Bộ phận giữ vai trò thế giới quan và phương pháp luận chung của chủ nghĩa Mác — Lênin là gì?",
       options: [
         {
-          text: "Triết học Mác \\- Lênin",
+          text: "Triết học Mác — Lênin",
           id: "a",
         },
         {
-          text: "Kinh tế chính trị Mác \\- Lênin",
+          text: "Kinh tế chính trị Mác — Lênin",
           id: "b",
         },
         {
@@ -518,14 +518,14 @@ const BANK = {
     },
     {
       content:
-        "Bộ phận nào trong chủ nghĩa Mác \\- Lênin có chức năng làm sáng tỏ bản chất những quy luật chung nhất của mọi sự vận động, phát triển của thế giới?",
+        "Bộ phận nào trong chủ nghĩa Mác — Lênin có chức năng làm sáng tỏ bản chất những quy luật chung nhất của mọi sự vận động, phát triển của thế giới?",
       options: [
         {
-          text: "Triết học Mác \\- Lênin",
+          text: "Triết học Mác — Lênin",
           id: "a",
         },
         {
-          text: "Kinh tế chính trị Mác \\- Lênin",
+          text: "Kinh tế chính trị Mác — Lênin",
           id: "b",
         },
         {
@@ -533,7 +533,7 @@ const BANK = {
           id: "c",
         },
         {
-          text: "Không có bộ phận nào giữ chức năng đó vì chủ nghĩa Mác \\- Lênin thuần túy là khoa học xã hội",
+          text: "Không có bộ phận nào giữ chức năng đó vì chủ nghĩa Mác — Lênin thuần túy là khoa học xã hội",
           id: "d",
         },
       ],
@@ -543,7 +543,7 @@ const BANK = {
     },
     {
       content:
-        "Có mấy thời kỳ chủ yếu trong sự hình thành và phát triển của triết học Mác? (giai đoạn Mác \\- Ăngghen)",
+        "Có mấy thời kỳ chủ yếu trong sự hình thành và phát triển của triết học Mác? (giai đoạn Mác — Ăngghen)",
       options: [
         {
           text: "2 thời kỳ",
@@ -571,7 +571,7 @@ const BANK = {
         "Tiền đề nào sau đây không phải là tiền đề khách quan của sự ra đời triết học Mác?",
       options: [
         {
-          text: "Điều kiện kinh tế \\- xã hội",
+          text: "Điều kiện kinh tế — xã hội",
           id: "a",
         },
         {
@@ -593,7 +593,7 @@ const BANK = {
     },
     {
       content:
-        "C.Mác \\- Ph.Ănghen đã kế thừa trực tiếp những tư tưởng triết học của triết gia nào?",
+        "C.Mác — Ph.Ănghen đã kế thừa trực tiếp những tư tưởng triết học của triết gia nào?",
       options: [
         {
           text: "Các triết gia thời Cổ đại",
@@ -744,7 +744,7 @@ const BANK = {
         "Phản ánh nào mang tính thụ động, chưa có định hướng lựa chọn của vật chất tác động?",
       options: [
         {
-          text: "Phản ánh lý \\- hóa",
+          text: "Phản ánh lý — hóa",
           id: "a",
         },
         {
@@ -769,7 +769,7 @@ const BANK = {
         "Hình thức phản ánh nào biểu hiện qua tính kích thích, tính cảm ứng, phản xạ?",
       options: [
         {
-          text: "Phản ánh lý \\- hóa",
+          text: "Phản ánh lý — hóa",
           id: "a",
         },
         {
@@ -817,7 +817,7 @@ const BANK = {
       content: "Hình thức phản ánh nào chỉ có ở con người?",
       options: [
         {
-          text: "Phản ánh lý \\- hóa",
+          text: "Phản ánh lý — hóa",
           id: "a",
         },
         {
@@ -891,19 +891,19 @@ const BANK = {
         "Điền vào chỗ trống để hoàn thành khái niệm nguyên nhân: “Phạm trù nguyên nhân dùng để chỉ…....giữa các mặt trong một sự vật, hiện tượng hoặc giữa các sự vật, hiện tượng với nhau để từ đó tạo ra… ”.",
       options: [
         {
-          text: "Sự tác động lẫn nhau \\- sự biến đổi nhất định",
+          text: "Sự tác động lẫn nhau — sự biến đổi nhất định",
           id: "a",
         },
         {
-          text: "Sự liên hệ lẫn nhau \\- một sự vật mới",
+          text: "Sự liên hệ lẫn nhau — một sự vật mới",
           id: "b",
         },
         {
-          text: "Sự tương tác \\- một sự vật mới",
+          text: "Sự tương tác — một sự vật mới",
           id: "c",
         },
         {
-          text: "Sự phát triển lẫn nhau \\- sự biến đổi nhất định",
+          text: "Sự phát triển lẫn nhau — sự biến đổi nhất định",
           id: "d",
         },
       ],
@@ -916,19 +916,19 @@ const BANK = {
         "Điền vào chỗ trống để hoàn thành khái niệm kết quả: “Phạm trù kết quả dùng để chỉ những….... xuất hiện do… giữa các mặt, các yếu tố trong một sự vật, hiện tượng,* *hoặc giữa các sự vật hiện tượng”.",
       options: [
         {
-          text: "Biến đổi \\- sự tác động",
+          text: "Biến đổi — sự tác động",
           id: "a",
         },
         {
-          text: "Sự vật, hiện tượng mới \\- sự kết hợp",
+          text: "Sự vật, hiện tượng mới — sự kết hợp",
           id: "b",
         },
         {
-          text: "Mối liên hệ \\- sự chuyển hóa",
+          text: "Mối liên hệ — sự chuyển hóa",
           id: "c",
         },
         {
-          text: "Sự vật hiện tượng mới \\- sự liên hệ",
+          text: "Sự vật hiện tượng mới — sự liên hệ",
           id: "d",
         },
       ],
@@ -1161,7 +1161,7 @@ const BANK = {
     },
     {
       content:
-        'Ph.Ăngghen viết: "\\[.........\\] là điều kiện cơ bản đầu tiên của toàn bộ đời sống loài người, và như thế đến một mức mà trên một ý nghĩa nào đó, chúng ta phải nói: \\[ \\] đã',
+        'Ph.Ăngghen viết: "[.........] là điều kiện cơ bản đầu tiên của toàn bộ đời sống loài người, và như thế đến một mức mà trên một ý nghĩa nào đó, chúng ta phải nói: [ ] đã',
       options: [
         {
           text: "Vật chất",
@@ -1484,7 +1484,7 @@ const BANK = {
     },
     {
       content:
-        "Theo triết học Mác \\- Lênin, phản ánh là thuộc tính của đối tượng nào trong thế giới vật chất?",
+        "Theo triết học Mác — Lênin, phản ánh là thuộc tính của đối tượng nào trong thế giới vật chất?",
       options: [
         {
           text: "Chỉ có ở dạng vật chất vô sinh",
@@ -1509,7 +1509,7 @@ const BANK = {
     },
     {
       content:
-        "Theo chủ nghĩa Mác \\- Lênin, hình thức phản ánh đơn giản nhất là:",
+        "Theo chủ nghĩa Mác — Lênin, hình thức phản ánh đơn giản nhất là:",
       options: [
         {
           text: "Phản ánh sinh học",
@@ -1559,7 +1559,7 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm của triết học Mác \\- Lênin, khẳng định nào đúng về bản chất của ý thức?",
+        "Theo quan điểm của triết học Mác — Lênin, khẳng định nào đúng về bản chất của ý thức?",
       options: [
         {
           text: "Ý thức là hình ảnh chủ quan của thế giới khách quan, là quá trình phản ánh tích cực, sáng tạo thế giới khách quan của óc người",
@@ -1673,7 +1673,7 @@ const BANK = {
           id: "c",
         },
         {
-          text: "Do quá trình lịch sử \\- tự nhiên",
+          text: "Do quá trình lịch sử — tự nhiên",
           id: "d",
         },
       ],
@@ -2206,7 +2206,7 @@ const BANK = {
       content: "Hình thức phản ánh nào đặc trưng cho vật chất vô sinh?",
       options: [
         {
-          text: "Phản ánh lý \\- hóa",
+          text: "Phản ánh lý — hóa",
           id: "a",
         },
         {
@@ -2260,7 +2260,7 @@ const BANK = {
           id: "a",
         },
         {
-          text: "Hoạt động chính trị \\- xã hội",
+          text: "Hoạt động chính trị — xã hội",
           id: "b",
         },
         {
@@ -2280,7 +2280,7 @@ const BANK = {
       content: "Theo quan điểm triết học Mác, thực tiễn là:",
       options: [
         {
-          text: "Toàn bộ các hoạt động vật chất \\- cảm tính",
+          text: "Toàn bộ các hoạt động vật chất — cảm tính",
           id: "a",
         },
         {
@@ -2326,7 +2326,7 @@ const BANK = {
     },
     {
       content:
-        "Hãy lựa chọn phương án đúng nhất theo quan điểm triết học Mác \\- Lênin, nhận thức là một quá trình?",
+        "Hãy lựa chọn phương án đúng nhất theo quan điểm triết học Mác — Lênin, nhận thức là một quá trình?",
       options: [
         {
           text: "Phản ánh trực tiếp thế giới khách quan vào trong đầu óc con người",
@@ -2615,7 +2615,7 @@ const BANK = {
           id: "c",
         },
         {
-          text: "Áp dụng rập khuôn kiến thức, kinh nghiệm mà không tính đến những điều kiện thực tiễn \\- lịch sử cụ thể",
+          text: "Áp dụng rập khuôn kiến thức, kinh nghiệm mà không tính đến những điều kiện thực tiễn — lịch sử cụ thể",
           id: "d",
         },
       ],
@@ -2650,7 +2650,7 @@ const BANK = {
     },
     {
       content:
-        "Quan niệm của triết học Mác \\- Lênin về khái niệm? Chọn phương án đúng nhất",
+        "Quan niệm của triết học Mác — Lênin về khái niệm? Chọn phương án đúng nhất",
       options: [
         {
           text: "Là những thuật ngữ của con người để mô tả sự vật hoặc để trao đổi thông tin",
@@ -2675,7 +2675,7 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm của triết học Mác \\- Lênin, tính cụ thể của chân lý là gì?",
+        "Theo quan điểm của triết học Mác — Lênin, tính cụ thể của chân lý là gì?",
       options: [
         {
           text: "Nội dung chân lý phù hợp với một mục đích nào đó của một cá nhân cụ thể",
@@ -2971,7 +2971,7 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm của chủ nghĩa Mác \\- Lênin, trong điều kiện nào thì cái chung có thể chuyển hóa thành cái đơn nhất?",
+        "Theo quan điểm của chủ nghĩa Mác — Lênin, trong điều kiện nào thì cái chung có thể chuyển hóa thành cái đơn nhất?",
       options: [
         {
           text: "Khi cái chung phù hợp với sự vận động và phát triển của sự vật",
@@ -2996,7 +2996,7 @@ const BANK = {
     },
     {
       content:
-        "Phạm trù nguyên nhân theo quan điểm của chủ nghĩa Mác \\- Lênin là:",
+        "Phạm trù nguyên nhân theo quan điểm của chủ nghĩa Mác — Lênin là:",
       options: [
         {
           text: "Dùng để chỉ sự tác động lẫn nhau giữa các mặt trong một sự vật, hiện tượng hoặc giữa các sự vật, hiện tượng với nhau và gây nên một sự biến đổi nhất định",
@@ -3024,19 +3024,19 @@ const BANK = {
         "Điền vào chỗ trống để hoàn thiện mệnh đề sau đây: “Tất nhiên là cái do những .…… bên trong của kết cấu vật chất quyết định và trong những ……. nhất định nó phải xảy ra như thế này chứ không thể như thế khác được”",
       options: [
         {
-          text: "Yếu tố cơ bản \\- thời gian",
+          text: "Yếu tố cơ bản — thời gian",
           id: "a",
         },
         {
-          text: "Nguyên nhân cơ bản \\- điều kiện",
+          text: "Nguyên nhân cơ bản — điều kiện",
           id: "b",
         },
         {
-          text: "Nhân tố cơ bản \\- thời điểm",
+          text: "Nhân tố cơ bản — thời điểm",
           id: "c",
         },
         {
-          text: "Điều kiện cơ bản \\- tác động",
+          text: "Điều kiện cơ bản — tác động",
           id: "d",
         },
       ],
@@ -3046,7 +3046,7 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm của triết học Mác \\- Lênin, việc nhận thức hàng loạt cái ngẫu nhiên nhằm mục đích gì?",
+        "Theo quan điểm của triết học Mác — Lênin, việc nhận thức hàng loạt cái ngẫu nhiên nhằm mục đích gì?",
       options: [
         {
           text: "Xác định chân lý",
@@ -3070,7 +3070,7 @@ const BANK = {
       group: "General",
     },
     {
-      content: "Quan điểm của triết học Mác \\- Lênin về phạm trù hiện tượng:",
+      content: "Quan điểm của triết học Mác — Lênin về phạm trù hiện tượng:",
       options: [
         {
           text: "Hiện tượng biểu hiện các mặt, mối liên hệ tất nhiên, tương đối ổn định ở bên ngoài của sự vật",
@@ -3095,7 +3095,7 @@ const BANK = {
     },
     {
       content:
-        "Quy luật chuyển hoá từ sự thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại trong chủ nghĩa Mác \\- Lênin chỉ ra điều gì?",
+        "Quy luật chuyển hoá từ sự thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại trong chủ nghĩa Mác — Lênin chỉ ra điều gì?",
       options: [
         {
           text: "Nguồn gốc, động lực của sự vận động và phát triển của thế giới hiện thực khách quan",
@@ -3145,7 +3145,7 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm của triết học Mác \\- Lênin, phạm trù nào dùng để chỉ sự chuyển hóa cơ bản về chất của sự vật, hiện tượng do những thay đổi về lượng trước đó gây ra, là bước ngoặt cơ bản trong sự biến đổi cơ bản về lượng?",
+        "Theo quan điểm của triết học Mác — Lênin, phạm trù nào dùng để chỉ sự chuyển hóa cơ bản về chất của sự vật, hiện tượng do những thay đổi về lượng trước đó gây ra, là bước ngoặt cơ bản trong sự biến đổi cơ bản về lượng?",
       options: [
         {
           text: "Điểm nút",
@@ -3170,7 +3170,7 @@ const BANK = {
     },
     {
       content:
-        "Theo triết học Mác \\- Lênin, trạng thái nào của các mặt đối lập mà ở đó có sự nương tựa lẫn nhau, tồn tại không tách rời nhau giữa các mặt đối lập, sự tồn tại của mặt này phải lấy sự tồn tại của mặt kia làm tiền đề?",
+        "Theo triết học Mác — Lênin, trạng thái nào của các mặt đối lập mà ở đó có sự nương tựa lẫn nhau, tồn tại không tách rời nhau giữa các mặt đối lập, sự tồn tại của mặt này phải lấy sự tồn tại của mặt kia làm tiền đề?",
       options: [
         {
           text: "Thống nhất giữa các mặt đối lập",
@@ -3244,7 +3244,7 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm của triết học Mác \\- Lênin, luận điểm nào sau đây là đúng?",
+        "Theo quan điểm của triết học Mác — Lênin, luận điểm nào sau đây là đúng?",
       options: [
         {
           text: "Có thể coi nguyên nhân và kết quả nằm ở hai sự vật khác nhau",
@@ -3714,7 +3714,7 @@ const BANK = {
     },
     {
       content:
-        "Điền vào chỗ trống từ còn thiếu để hoàn thiện nhận định sau của Mác \\- Ăngghen: “Lịch sử tất cả các xã hội cho đến nay chỉ là lịch sử…”",
+        "Điền vào chỗ trống từ còn thiếu để hoàn thiện nhận định sau của Mác — Ăngghen: “Lịch sử tất cả các xã hội cho đến nay chỉ là lịch sử…”",
       options: [
         {
           text: "Đấu tranh kinh tế",
@@ -4192,7 +4192,7 @@ const BANK = {
           id: "a",
         },
         {
-          text: "Quan hệ về địa vị kinh tế \\- xã hội",
+          text: "Quan hệ về địa vị kinh tế — xã hội",
           id: "b",
         },
         {
@@ -4217,7 +4217,7 @@ const BANK = {
           id: "a",
         },
         {
-          text: "Quan hệ về địa vị chính trị \\- xã hội",
+          text: "Quan hệ về địa vị chính trị — xã hội",
           id: "b",
         },
         {
@@ -4410,7 +4410,7 @@ const BANK = {
     },
     {
       content:
-        "Định nghĩa “Giai cấp” của Lênin cho thấy, giai cấp là một phạm trù kinh tế \\- xã hội có tính chất nào sau đây?",
+        "Định nghĩa “Giai cấp” của Lênin cho thấy, giai cấp là một phạm trù kinh tế — xã hội có tính chất nào sau đây?",
       options: [
         {
           text: "Tính trừu tượng",
@@ -4607,7 +4607,7 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm của triết học Mác \\- Lênin, đã từng tồn tại mấy kiểu nhà nước trong lịch sử?",
+        "Theo quan điểm của triết học Mác — Lênin, đã từng tồn tại mấy kiểu nhà nước trong lịch sử?",
       options: [
         {
           text: "3",
@@ -4979,7 +4979,7 @@ const BANK = {
     },
     {
       content:
-        "Theo triết học Mác \\- Lênin thì Nhà nước có mấy chức năng cơ bản",
+        "Theo triết học Mác — Lênin thì Nhà nước có mấy chức năng cơ bản",
       options: [
         {
           text: "2 chức năng",
@@ -5155,7 +5155,7 @@ const BANK = {
       content: "Thời cơ cách mạng là gì?",
       options: [
         {
-          text: "Là điều kiện, hoàn cảnh kinh tế \\- xã hội, chính trị bên ngoài tác động đến, là tiền đề diễn ra các cuộc cách mạng xã hội",
+          text: "Là điều kiện, hoàn cảnh kinh tế — xã hội, chính trị bên ngoài tác động đến, là tiền đề diễn ra các cuộc cách mạng xã hội",
           id: "a",
         },
         {
@@ -5163,7 +5163,7 @@ const BANK = {
           id: "b",
         },
         {
-          text: "Là sự chín muồi của mâu thuẫn gay gắt giữa lực lượng sản xuất và quan hệ sản xuất, sự phát triển đến đỉnh cao của cuộc đấu tranh giai cấp dẫn tới những đảo lộn sâu sắc trong nền tảng kinh tế \\- xã hội của nhà nước đương thời",
+          text: "Là sự chín muồi của mâu thuẫn gay gắt giữa lực lượng sản xuất và quan hệ sản xuất, sự phát triển đến đỉnh cao của cuộc đấu tranh giai cấp dẫn tới những đảo lộn sâu sắc trong nền tảng kinh tế — xã hội của nhà nước đương thời",
           id: "c",
         },
         {
@@ -5179,7 +5179,7 @@ const BANK = {
       content: "Tình thế cách mạng là gì?",
       options: [
         {
-          text: "Là điều kiện, hoàn cảnh kinh tế \\- xã hội, chính trị bên ngoài tác động đến, là tiền đề diễn ra các cuộc cách mạng xã hội",
+          text: "Là điều kiện, hoàn cảnh kinh tế — xã hội, chính trị bên ngoài tác động đến, là tiền đề diễn ra các cuộc cách mạng xã hội",
           id: "a",
         },
         {
@@ -5187,7 +5187,7 @@ const BANK = {
           id: "b",
         },
         {
-          text: "Là sự chín muồi của mâu thuẫn gay gắt giữa lực lượng sản xuất và quan hệ sản xuất, sự phát triển đến đỉnh cao của cuộc đấu tranh giai cấp dẫn tới những đảo lộn sâu sắc trong nền tảng kinh tế \\- xã hội của nhà nước đương thời",
+          text: "Là sự chín muồi của mâu thuẫn gay gắt giữa lực lượng sản xuất và quan hệ sản xuất, sự phát triển đến đỉnh cao của cuộc đấu tranh giai cấp dẫn tới những đảo lộn sâu sắc trong nền tảng kinh tế — xã hội của nhà nước đương thời",
           id: "c",
         },
         {
@@ -5224,14 +5224,14 @@ const BANK = {
       group: "General",
     },
     {
-      content: "Kế cấu xã hội \\- giai cấp là gì?",
+      content: "Kế cấu xã hội — giai cấp là gì?",
       options: [
         {
-          text: "Là dấu hiệu chủ yếu quy định địa vị kinh tế \\- xã hội của các giai cấp",
+          text: "Là dấu hiệu chủ yếu quy định địa vị kinh tế — xã hội của các giai cấp",
           id: "a",
         },
         {
-          text: "Là các mối quan hệ kinh tế \\- vật chất giữa các tập đoàn người trong phương thức sản xuất",
+          text: "Là các mối quan hệ kinh tế — vật chất giữa các tập đoàn người trong phương thức sản xuất",
           id: "b",
         },
         {
@@ -5239,7 +5239,7 @@ const BANK = {
           id: "c",
         },
         {
-          text: "Là tập đoàn người này chiếm đoạt lao động của tập đoàn người khác do đối lập về địa vị trong một chế độ kinh tế \\- xã hội nhất định",
+          text: "Là tập đoàn người này chiếm đoạt lao động của tập đoàn người khác do đối lập về địa vị trong một chế độ kinh tế — xã hội nhất định",
           id: "d",
         },
       ],
@@ -5421,7 +5421,7 @@ const BANK = {
     },
     {
       content:
-        "Đặc trưng nào sau đây dùng để phân biệt dân tộc theo nghĩa quốc gia \\- dân tộc và dân tộc \\- tộc người (đa số hay thiểu số)?",
+        "Đặc trưng nào sau đây dùng để phân biệt dân tộc theo nghĩa quốc gia — dân tộc và dân tộc — tộc người (đa số hay thiểu số)?",
       options: [
         {
           text: "Dân tộc là một cộng đồng người ổn định trên một lãnh thổ thống nhất",
@@ -5545,7 +5545,7 @@ const BANK = {
     },
     {
       content:
-        "Việc chủ tịch Hồ Chí Minh vận dụng sáng tạo chủ nghĩa Mác \\- Lênin vào cách mạng ở Việt Nam thể hiện đặc tính nào trong tính độc lập tương đối của ý thức xã hội?",
+        "Việc chủ tịch Hồ Chí Minh vận dụng sáng tạo chủ nghĩa Mác — Lênin vào cách mạng ở Việt Nam thể hiện đặc tính nào trong tính độc lập tương đối của ý thức xã hội?",
       options: [
         {
           text: "Tính khách quan",
@@ -5606,7 +5606,7 @@ const BANK = {
           id: "b",
         },
         {
-          text: "Bản thảo kinh tế \\- triết học năm 1844",
+          text: "Bản thảo kinh tế — triết học năm 1844",
           id: "c",
         },
         {
@@ -5646,19 +5646,19 @@ const BANK = {
       content: "Con người là thể thống nhất của các mặt cơ bản:",
       options: [
         {
-          text: "Sinh học \\- xã hội",
+          text: "Sinh học — xã hội",
           id: "a",
         },
         {
-          text: "Tâm lý \\- xã hội",
+          text: "Tâm lý — xã hội",
           id: "b",
         },
         {
-          text: "Xã hội \\- tinh thần",
+          text: "Xã hội — tinh thần",
           id: "c",
         },
         {
-          text: "Nhân cách \\- xã hội",
+          text: "Nhân cách — xã hội",
           id: "d",
         },
       ],
@@ -5878,7 +5878,7 @@ const BANK = {
           id: "b",
         },
         {
-          text: "Quan hệ cá nhân \\- xã hội là tất yếu, là tiền đề và điều kiện tồn tại và phát triển của cả cá nhân lẫn xã hội",
+          text: "Quan hệ cá nhân — xã hội là tất yếu, là tiền đề và điều kiện tồn tại và phát triển của cả cá nhân lẫn xã hội",
           id: "c",
         },
         {
@@ -5967,7 +5967,7 @@ const BANK = {
     },
     {
       content:
-        "Trong các nhà kinh điển của chủ nghĩa Mác \\- Lênin, ai là người bàn về vấn đề bản chất và sự tha hóa con người rõ nét nhất:",
+        "Trong các nhà kinh điển của chủ nghĩa Mác — Lênin, ai là người bàn về vấn đề bản chất và sự tha hóa con người rõ nét nhất:",
       options: [
         {
           text: "V.I.Lênin",
@@ -5992,7 +5992,7 @@ const BANK = {
     },
     {
       content:
-        "Chọn luận điểm sai về việc giải phóng con người theo quan điểm của triết học Mác \\- Lênin:",
+        "Chọn luận điểm sai về việc giải phóng con người theo quan điểm của triết học Mác — Lênin:",
       options: [
         {
           text: "Việc giải phóng những con người cụ thể là để đi đến giải phóng giai cấp, giải phóng dân tộc và tiến tới giải phóng toàn thể nhân loại",
@@ -6020,19 +6020,19 @@ const BANK = {
         "Một trong những nội dung cơ bản thể hiện quan hệ giữa lãnh tụ với quần chúng nhân dân:",
       options: [
         {
-          text: "Trong mối quan hệ thống nhất biện chứng giữa quần chúng nhân dân và lãnh tụ, chủ nghĩa Mác \\- Lênin khẳng định vai trò quyết định của quần chúng nhân dân đồng thời đánh giá cao vai trò của lãnh tụ",
+          text: "Trong mối quan hệ thống nhất biện chứng giữa quần chúng nhân dân và lãnh tụ, chủ nghĩa Mác — Lênin khẳng định vai trò quyết định của quần chúng nhân dân đồng thời đánh giá cao vai trò của lãnh tụ",
           id: "a",
         },
         {
-          text: "Trong mối quan hệ thống nhất biện chứng giữa quần chúng nhân dân và lãnh tụ, chủ nghĩa Mác \\- Lênin khẳng định vai trò quyết định của lãnh tụ đồng thời đánh giá cao vai trò của quần chúng nhân dân",
+          text: "Trong mối quan hệ thống nhất biện chứng giữa quần chúng nhân dân và lãnh tụ, chủ nghĩa Mác — Lênin khẳng định vai trò quyết định của lãnh tụ đồng thời đánh giá cao vai trò của quần chúng nhân dân",
           id: "b",
         },
         {
-          text: "Trong mối quan hệ thống nhất biện chứng giữa quần chúng nhân dân và lãnh tụ, chủ nghĩa Mác \\- Lênin khẳng định vai trò độc lập lẫn nhau giữa quần chúng nhân dân và lãnh tụ",
+          text: "Trong mối quan hệ thống nhất biện chứng giữa quần chúng nhân dân và lãnh tụ, chủ nghĩa Mác — Lênin khẳng định vai trò độc lập lẫn nhau giữa quần chúng nhân dân và lãnh tụ",
           id: "c",
         },
         {
-          text: "Trong mối quan hệ thống nhất biện chứng giữa quần chúng nhân dân và lãnh tụ, chủ nghĩa Mác \\- Lênin khẳng định vai trò tương đương nhau giữa quần chúng nhân dân và lãnh tụ",
+          text: "Trong mối quan hệ thống nhất biện chứng giữa quần chúng nhân dân và lãnh tụ, chủ nghĩa Mác — Lênin khẳng định vai trò tương đương nhau giữa quần chúng nhân dân và lãnh tụ",
           id: "d",
         },
       ],
@@ -6042,7 +6042,7 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm triết học Mác \\- Lênin, điều kiện tiên quyết, cần thiết và chủ yếu quyết định sự hình thành và phát triển của con người cả về phương diện sinh học lẫn phương diện xã hội là gì?",
+        "Theo quan điểm triết học Mác — Lênin, điều kiện tiên quyết, cần thiết và chủ yếu quyết định sự hình thành và phát triển của con người cả về phương diện sinh học lẫn phương diện xã hội là gì?",
       options: [
         {
           text: "Lao động",
@@ -6092,7 +6092,7 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm triết học Mác \\- Lênin, thực chất của hiện tượng tha hóa con người là gì?",
+        "Theo quan điểm triết học Mác — Lênin, thực chất của hiện tượng tha hóa con người là gì?",
       options: [
         {
           text: "Là lao động của con người bị tha hóa",
@@ -6245,19 +6245,19 @@ const BANK = {
         "Giai đoạn nhận thức cảm tính được thực hiện thông qua những hình thức cơ bản nào?",
       options: [
         {
-          text: "Cảm giác \\- Tri giác \\- Biểu tượng",
+          text: "Cảm giác — Tri giác — Biểu tượng",
           id: "a",
         },
         {
-          text: "Cảm giác \\- Phán đoán \\- Tri giác",
+          text: "Cảm giác — Phán đoán — Tri giác",
           id: "b",
         },
         {
-          text: "Khái niệm \\- Phán đoán \\- Suy lý",
+          text: "Khái niệm — Phán đoán — Suy lý",
           id: "c",
         },
         {
-          text: "Khái niệm \\- Suy lý \\- Tri giác",
+          text: "Khái niệm — Suy lý — Tri giác",
           id: "d",
         },
       ],
@@ -6586,7 +6586,7 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm triết học Mác \\- Lênin, mối quan hệ giữa quần chúng nhân dân và lãnh tụ thể hiện như thế nào?",
+        "Theo quan điểm triết học Mác — Lênin, mối quan hệ giữa quần chúng nhân dân và lãnh tụ thể hiện như thế nào?",
       options: [
         {
           text: "Quần chúng nhân dân là lực lượng đóng vai trò quyết định đối với sự phát triển của lịch sử xã hội; Lãnh tụ là người dẫn dắt, định hướng cho phong trào, thúc đẩy phong trào phát triển",
@@ -6611,7 +6611,7 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm triết học Mác \\- Lênin, yếu tố nào là cầu nối, liên kết, là mắt xích quyết định, là động lực để quần chúng nhân dân và lãnh tụ thống nhất về ý chí và hành động?",
+        "Theo quan điểm triết học Mác — Lênin, yếu tố nào là cầu nối, liên kết, là mắt xích quyết định, là động lực để quần chúng nhân dân và lãnh tụ thống nhất về ý chí và hành động?",
       options: [
         {
           text: "Lợi ích",
@@ -6626,7 +6626,7 @@ const BANK = {
           id: "c",
         },
         {
-          text: "Nhiệm vụ chính trị\\\\ư",
+          text: "Nhiệm vụ chính trị",
           id: "d",
         },
       ],
@@ -6647,7 +6647,7 @@ const BANK = {
           id: "b",
         },
         {
-          text: "Liên minh công \\- nông \\- trí thức",
+          text: "Liên minh công — nông — trí thức",
           id: "c",
         },
         {
@@ -6661,10 +6661,10 @@ const BANK = {
     },
     {
       content:
-        "Theo quan điểm của chủ nghĩa Mác \\- Lênin về mối quan hệ biện chứng giữa quần chúng nhân dân và lãnh tụ thì nhận định nào sau đây là sai?",
+        "Theo quan điểm của chủ nghĩa Mác — Lênin về mối quan hệ biện chứng giữa quần chúng nhân dân và lãnh tụ thì nhận định nào sau đây là sai?",
       options: [
         {
-          text: "Chủ nghĩa Mác \\- Lênin khẳng định vai trò quyết định của quần chúng nhân dân đồng thời đánh giá cao vai trò của lãnh tụ",
+          text: "Chủ nghĩa Mác — Lênin khẳng định vai trò quyết định của quần chúng nhân dân đồng thời đánh giá cao vai trò của lãnh tụ",
           id: "a",
         },
         {
