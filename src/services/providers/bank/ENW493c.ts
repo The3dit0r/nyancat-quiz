@@ -1332,8 +1332,7 @@ const BANK = {
       group: "GNRL",
     },
     {
-      content:
-        "A scientific theory... (tick one)  Ans: Deduction vs. induction. Tick the correct statements:",
+      content: "A scientific theory... (tick one)",
       options: [
         {
           id: "A",
@@ -1355,6 +1354,14 @@ const BANK = {
           id: "E",
           text: "Must always be described as a set of mathematical formulae.",
         },
+      ],
+      answers: ["B"],
+      type: "MC",
+      group: "GNRL",
+    },
+    {
+      content: "Deduction vs. induction. Tick the correct statements:",
+      options: [
         {
           id: "A",
           text: "Deductive inferences can be used to generate predictions from a given theory.",
@@ -1737,7 +1744,7 @@ const BANK = {
           text: "No implementation of Open Access can charge a fee to a researcher to publish her product.",
         },
       ],
-      answers: ["A"],
+      answers: ["B"],
       type: "MC",
       group: "GNRL",
     },
@@ -1772,7 +1779,7 @@ const BANK = {
     },
     {
       content:
-        "A C D (Not Correct) How can we judge whether one is fit for research? Tick the pertinent answers.  Consider the following factors one may consider when choosing to enter a PhD program. Tick the three most important.",
+        "How can we judge whether one is fit for research? Tick the pertinent answers.",
       options: [
         {
           id: "A",
@@ -1790,6 +1797,15 @@ const BANK = {
           id: "D",
           text: "Persistence in achieving results.",
         },
+      ],
+      answers: [],
+      type: "MC",
+      group: "GNRL",
+    },
+    {
+      content:
+        "Consider the following factors one may consider when choosing to enter a PhD program. Tick the three most important",
+      options: [
         {
           id: "A",
           text: "Lively and competitive research environment.",
@@ -2873,7 +2889,7 @@ const BANK = {
     },
     {
       content:
-        "Read the original source on the left and the student's writing on the right and decide if the student plagiarized or not. Original Source This can be seen around the world. The World Health Organization and many nations have issued dietary guidelines to address a global epidemic of noncommunicable diseases that is far from limited to high-income countries. Global diets have converged such that the same principles for dietary change apply to some extent in all countries. The increase in noncommunicable diseases in low- and middle-income countries is more rapid, and has worse consequences than in high-income countries, according to the Council on Foreign Relations. Moreover, the challenge of combating noncommunicable diseases along with under-nutrition is substantially greater in these countries. Kumanyika, Shiriki. \"Aligning Policies on Nutrition, Food, Environment for Sustainable Future.\" The Nation's Health Mar. 2015: 3. Academic OneFile. Web. 2 July 2015. Student's Writing Many health agencies around the world are busy issuing dietary guidelines to address a global epidemic of non- communicable diseases, such as heart disease (Kumanyika). This is important because developing countries are having an increase in non-communicable diseases recently.",
+        "Read the original source on the left and the student's writing on the right and decide if the student plagiarized or not. \nOriginal Source This can be seen around the world. The World Health Organization and many nations have issued dietary guidelines to address a global epidemic of noncommunicable diseases that is far from limited to high-income countries. Global diets have converged such that the same principles for dietary change apply to some extent in all countries. The increase in noncommunicable diseases in low- and middle-income countries is more rapid, and has worse consequences than in high-income countries, according to the Council on Foreign Relations. Moreover, the challenge of combating noncommunicable diseases along with under-nutrition is substantially greater in these countries. Kumanyika, Shiriki. \"Aligning Policies on Nutrition, Food, Environment for Sustainable Future.\" The Nation's Health Mar. 2015: 3. Academic OneFile. Web. 2 July 2015. Student's Writing Many health agencies around the world are busy issuing dietary guidelines to address a global epidemic of non- communicable diseases, such as heart disease (Kumanyika). This is important because developing countries are having an increase in non-communicable diseases recently.",
       options: [
         {
           id: "A",

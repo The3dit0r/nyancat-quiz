@@ -58,7 +58,7 @@ export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
       >
         <div className="flex aictr spbtw">
           <div className="">
-            <div className="text-lg font-semibold">Generate quiz</div>
+            <div className="text-lg font-semibold">Generate Quiz</div>
             <div className="text-sm ">
               <span className="opacity-70">Bank: {bankDetails.name}</span>
               <span> • </span>
@@ -143,7 +143,7 @@ export function GenerateQuizPrompt({ modal, onClose }: PropsWithModal) {
           </button>
 
           <button className="btn btn-primary" onClick={generate}>
-            Generate quiz
+            Generate
           </button>
         </div>
       </div>

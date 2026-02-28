@@ -3,7 +3,7 @@ import { useState } from "react";
 import { MinusSquareIcon, StarIcon } from "@phosphor-icons/react";
 import { formatRomanNumeralList } from "../utils/string";
 
-import { StarrableItem, type InteractableQuestion } from "../utils/test";
+import { StarrableItem } from "../utils/test";
 import { useSettings } from "../services/settings";
 import { useApp } from "../services/providers/data";
 
@@ -100,14 +100,14 @@ export function QuestionDisplay() {
       </div>
 
       <p
-        className="my-8 whitespace-pre-line leading-7"
+        className="my-8 whitespace-pre-line leading-7 font-sans"
         style={{ fontSize: fontSize * 1.08 }}
       >
         {formatRomanNumeralList(curQ.getContent())}
       </p>
 
       <div
-        className="text-[1em]"
+        className="text-[1em] font-sans"
         style={{
           pointerEvents: showAnswers ? "none" : "auto",
         }}
@@ -142,22 +142,24 @@ function Option({
   correct: boolean | null;
 } & React.JSX.IntrinsicElements["div"]) {
   const base =
-    "p-4 flex-1 outline-[#0000] cart py-4 font-normal rounded-field hover:outline-base-content/40 outline-1 cursor-pointer! ";
+    "py-4 flex-1 outline-[#0000] cart font-normalhover:outline-base-content/40 outline-1 cursor-pointer! ";
 
   return (
-    <div className="flex gap-4 aictr px-0 my-6" {...rest}>
-      <div className="w-8 h-8 flex aictr jcctr rounded-md border-1 text-xl cursor-pointer usn">
+    <div
+      className={
+        "flex gap-4 aictr px-3 my-6 rounded-field " +
+        getColor(selected, correct)
+      }
+      {...rest}
+    >
+      <div className="w-8 h-8 flex aictr jcctr *:bg-base-content *:rounded-full *:w-1/2 *:h-1/2">
         {selected ? (
-          <span className="fade-in">✓</span>
+          <div className="fade-in"></div>
         ) : (
-          <span className="fade-out">✓</span>
+          <div className="fade-out"></div>
         )}
       </div>
-      <div
-        className={base + getColor(selected, correct)}
-        style={{ transition: "all 0.1s" }}
-        key={id}
-      >
+      <div className={base} style={{ transition: "all 0.1s" }} key={id}>
         {text}
       </div>
     </div>
@@ -181,7 +183,7 @@ function getColor(selected: boolean, correct: boolean | null): string {
       : "bg-success/20 outline-success outline-1";
   }
 
-  return "outline-2";
+  return "outline-2 outline-base-content/10";
 }
 
 function getNext(a = 1, m = 50) {

@@ -39,7 +39,7 @@ export default function StatusBar() {
       <img src={NyanCat} width={60} />
       <div
         onClick={showBankList}
-        className="btn h-auto p-2 rounded-field gap-4 usn rounded-box!"
+        className="btn h-auto p-2 rounded-field gap-4 usn"
       >
         <DatabaseIcon size="3em" />
         <div className="text-left">
@@ -58,7 +58,7 @@ export default function StatusBar() {
       <div className="flex flex-1 aictr jcend gap-2">
         <button className="btn btn-primary" onClick={genModal.open}>
           <PlusIcon />
-          Generate quiz
+          Generate Quiz
         </button>
         <button className="btn btn-secondary" onClick={listModal.open}>
           <ListIcon />

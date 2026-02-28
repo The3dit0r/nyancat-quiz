@@ -27,13 +27,13 @@
   --color-error: oklch(62.813% 0.25739 28.782);
   --color-error-content: oklch(100% 0.00011 271.152);
   --radius-selector: 1rem;
-  --radius-field: 2rem;
+  --radius-field: 0.5rem;
   --radius-box: 1rem;
   --size-selector: 0.25rem;
   --size-field: 0.25rem;
   --border: 1px;
-  --depth: 0;
-  --noise: 0;
+  --depth: 1;
+  --noise: 2;
 }
 
 [data-theme="my-light"] {
@@ -41,9 +41,10 @@
   default: false;
   prefersdark: false;
   color-scheme: "light";
-  --color-base-100: oklch(96% 0.018 272.314);
-  --color-base-200: oklch(93% 0.034 272.788);
-  --color-base-300: oklch(87% 0.065 274.039);
+  --color-base-100: #f6f8fa;
+  --color-base-200: #ffffff;
+  --color-base-200: #fafafa;
+
   --color-base-content: oklch(35% 0.144 278.697);
   --color-primary: oklch(40.746% 0.25742 274.4);
   --color-primary-content: oklch(100% 0.00011 271.152);
@@ -62,11 +63,11 @@
   --color-error: oklch(62.813% 0.25739 28.782);
   --color-error-content: oklch(100% 0.00011 271.152);
   --radius-selector: 1rem;
-  --radius-field: 2rem;
+  --radius-field: 0.5rem;
   --radius-box: 1rem;
   --size-selector: 0.25rem;
   --size-field: 0.25rem;
   --border: 1px;
   --depth: 1;
-  --noise: 0;
+  --noise: 2;
 }

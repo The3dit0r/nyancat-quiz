@@ -58,7 +58,7 @@ export default function BankDetailsModal({ modal }: PropsWithModal) {
           </div>
 
           <button className="btn btn-primary btn-soft" onClick={togglePrompt}>
-            Generate quiz
+            Generate
           </button>
         </div>
 
@@ -70,21 +70,13 @@ export default function BankDetailsModal({ modal }: PropsWithModal) {
               className="grid grid-cols-3 gap-4"
               style={{
                 gridTemplateRows: `repeat(${Math.ceil(
-                  filtered.length / 3
+                  filtered.length / 3,
                 )}, min(300px, 30%))`,
               }}
             >
               {filtered.map((q) => {
                 return (
-                  <div
-                    className="card border-2 border-transparent rounded-box p-2 hover:border-primary transition-all"
-                    style={{
-                      backgroundColor:
-                        q.type === "TF"
-                          ? "var(--color-base-300)"
-                          : "var(--color-base-200)",
-                    }}
-                  >
+                  <div className="card border-2 border-transparent rounded-box p-2 hover:border-primary transition-all">
                     <div className="text-sm line-clamp-4 text-base-content">
                       Q: {q.content}
                     </div>
